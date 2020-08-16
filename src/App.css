@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image{
+  width :90%;
+  height:500px;
+}
+
+
+.caption {
+   background-color: #000000;
+   opacity: 0.8;
+   height:1.6em ;
+  }
+
+  React.Fragment{
+    position: relative;
+  }
+
+   
