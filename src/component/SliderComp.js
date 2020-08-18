@@ -1,36 +1,89 @@
 import React from 'react'
 import { Carousel ,  Container} from 'react-bootstrap';
-import { hydrate } from 'react-dom';
-import BurgerSlide from './BurgerSlide';
-import ContestSlide from './ContestSlide';
+
+import {   Button} from 'react-bootstrap';
+import {Link } from 'react-router-dom';
+
+
+
 
 
 function SliderComp() {
     const healthy= require('./images/healthy.jpg')
+    const contest= require('./images/contest.jpg')
+    const fastFood= require('./images/fastFood.jpg')
 
     return (
 
-        <Carousel >
-            <Carousel.Item>
-                <BurgerSlide/>
-            </Carousel.Item>
+        <React.Fragment>
+           
+            <Carousel >
+                <Carousel.Item>
+                    <Link to="/ContestForm">
 
-            <Carousel.Item >
-            <img
-                    className="d-block w-100 image"
-                    src={healthy}
-                    alt="Second slide"
-                />
-                <Carousel.Caption>
-                   <div className="container-fluid"><h3 className="caption"> healthy foods </h3></div> 
-                </Carousel.Caption>
-            </Carousel.Item>
+                        <img className="d-block w-100 image"
+                            src={contest}
+                            alt="Third slide"
+                        />
+                    </Link>
 
-        <Carousel.Item >
-               <ContestSlide/>
-         </Carousel.Item>
-      </Carousel>
+                    <Button style={joinBtn}>participate</Button>
+                    <Carousel.Caption>
+                    <h1>your chance to win a 100dt gift card</h1>
+                    </Carousel.Caption>                
+                </Carousel.Item>
+
+                <Carousel.Item >
+                <img
+                        className="d-block w-100 image"
+                        src={healthy}
+                        alt="Second slide"
+                    />
+                    <Carousel.Caption>
+                    <div className="container-fluid"><h3 className="caption"> healthy foods </h3></div> 
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item >
+                    <Link to="/BuildBurger">
+                        <img
+                            className="d-block w-100 image"
+                            src={fastFood}
+                            alt="Third slide"
+                        />
+
+                        <Carousel.Caption>
+                        <div className="container-fluid"><h3 className="caption"> custom burgers </h3></div> 
+                        </Carousel.Caption> 
+                        
+                        <Button style={btn}>Order Now</Button>
+                    </Link>
+                </Carousel.Item>
+            </Carousel>
+
+
+        </React.Fragment>
+
     )
 }
+
+const  joinBtn={
+    position: "absolute",
+     right:"30px",
+     bottom: "0px",
+    fontWeight:"bold",
+    borderRadius:"0",
+    color:"white",
+    backgroundColor:"primary",
+    textDecoration :"none"
+  }
+const btn= {
+    position: "absolute",
+    top:"30px",
+    left:"60%",
+    backgroundColor:"#00A6F6",
+    border:"none",
+    fontWeight: "bold"
+  }
 
 export default SliderComp
