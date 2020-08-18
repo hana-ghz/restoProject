@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel ,  Container} from 'react-bootstrap';
-
+import './SliderComp.css';
 import {   Button} from 'react-bootstrap';
 import {Link } from 'react-router-dom';
 
@@ -17,8 +17,8 @@ function SliderComp() {
 
         <React.Fragment>
            
-            <Carousel >
-                <Carousel.Item>
+            <Carousel id="slider" >
+                <Carousel.Item className="CarouselItem" >
                     <Link to="/ContestForm">
 
                         <img className="d-block w-100 image"
@@ -27,13 +27,13 @@ function SliderComp() {
                         />
                     </Link>
 
-                    <Button style={joinBtn}>participate</Button>
+                    <Button id="participate" style={joinBtn}>participate</Button>
                     <Carousel.Caption>
-                    <h1>your chance to win a 100dt gift card</h1>
+                    <h1 className="d-sm-none d-md-block"> your chance to win a 100dt gift card</h1>
                     </Carousel.Caption>                
                 </Carousel.Item>
 
-                <Carousel.Item >
+                <Carousel.Item className="CarouselItem" >
                 <img
                         className="d-block w-100 image"
                         src={healthy}
@@ -44,7 +44,7 @@ function SliderComp() {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item >
+                <Carousel.Item className="CarouselItem" >
                     <Link to="/BuildBurger">
                         <img
                             className="d-block w-100 image"

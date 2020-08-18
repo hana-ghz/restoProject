@@ -5,7 +5,9 @@
   text-align: center;
 }
 
-
+html, body, #root, .App {
+  height: 100%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -23,20 +25,3 @@
   }
 }
 
-.image{
-  width :90%;
-  height:500px;
-}
-
-
-.caption {
-   background-color: #000000;
-   opacity: 0.8;
-   height:1.6em ;
-  }
-
-  React.Fragment{
-    position: relative;
-  }
-
-   
