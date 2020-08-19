@@ -80,7 +80,6 @@ function Nav2() {
 
   
 </Navbar>
-        <div style={{height:'900px'}}></div>
         </div>
     )
 }

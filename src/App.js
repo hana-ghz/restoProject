@@ -13,7 +13,7 @@ import SliderComp from './component/SliderComp';
 function App() {
   return (
     <div className="App">
-    	<Nav2/>
+    	 <Nav2/> 
         <Router>
                   <Route path="/" exact component={SliderComp}></Route>
                   <Route path="/ContestForm" exact component={ContestForm}/>

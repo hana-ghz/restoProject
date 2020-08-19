@@ -9,15 +9,14 @@
   
    #slider{
     box-sizing: border-box;
-    width: 85%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 15px;
    }
      
 
   .CarouselItem  img {   
-    height:400px;
+    height:500px;
 
     }
 
