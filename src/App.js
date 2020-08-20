@@ -8,6 +8,7 @@ import Nav2 from './component/Nav2';
 import BuildBurger from './component/BuildBurger';
 import ContestForm from './component/ContestForm';
 import SliderComp from './component/SliderComp';
+<<<<<<< HEAD
 import Grid_meals from './component/Grid_meals';
 import Drinks from './component/Drinks';
 
@@ -29,6 +30,22 @@ function App() {
    
   </div>
 
+=======
+import Footer2  from './component/Footer2'
+
+function App() {
+  return (
+    <div className="App">
+    	 <Nav2/> 
+        <Router>
+                  <Route path="/" exact component={SliderComp}></Route>
+                  <Route path="/ContestForm" exact component={ContestForm}/>
+                  <Route path="/BuildBurger" exact component={BuildBurger}/>
+        </Router>
+        <div style={{height:"2000px"}}></div>
+        <Footer2/>
+    </div>
+>>>>>>> 565d1ab3c9dae06364261d3e85503859d29c615c
   );
 }
 
