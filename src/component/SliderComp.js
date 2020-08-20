@@ -59,7 +59,6 @@ function SliderComp() {
                 
             </Carousel>
 
-
         </React.Fragment>
 
     )

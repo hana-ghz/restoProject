@@ -8,7 +8,7 @@ import Nav2 from './component/Nav2';
 import BuildBurger from './component/BuildBurger';
 import ContestForm from './component/ContestForm';
 import SliderComp from './component/SliderComp';
-
+import Footer2  from './component/Footer2'
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
                   <Route path="/ContestForm" exact component={ContestForm}/>
                   <Route path="/BuildBurger" exact component={BuildBurger}/>
         </Router>
+        <div style={{height:"2000px"}}></div>
+        <Footer2/>
     </div>
   );
 }

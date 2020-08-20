@@ -3,10 +3,18 @@
 }
 .App {
   text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+
 }
 
 html, body, #root, .App {
   height: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
