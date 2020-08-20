@@ -5,9 +5,6 @@ import {   Button} from 'react-bootstrap';
 import {Link } from 'react-router-dom';
 
 
-
-
-
 function SliderComp() {
     const healthy= require('./images/abc.jpg')
     const contest= require('./images/contest1.jpg')

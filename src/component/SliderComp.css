@@ -1,6 +1,4 @@
 
-  
-  
   .caption {
      background-color: #000000;
      opacity: 0.8;
@@ -16,7 +14,7 @@
      
 
   .CarouselItem  img {   
-    height:500px;
+    height:480px;
 
     }
 
@@ -24,11 +22,11 @@
     @media (max-width: 540px){
         #slider{
             width: 100%;
-            margin-top: 10px;
+            margin-top: 68px;
            }
         .CarouselItem  img {   
             height:200px;
-        
+            
             }
 
         .caption {
@@ -39,7 +37,7 @@
         #slider h1{
             font-size : 4vw;
             color: red; 
-            position: absolute;
+            
             
         }
 

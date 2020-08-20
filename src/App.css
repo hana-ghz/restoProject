@@ -1,27 +1,88 @@
-*{
-  box-sizing: border-box;
-}
-.App {
-  text-align: center;
+.taswira{
+  max-height: 400px;
 }
 
-html, body, #root, .App {
-  height: 100%;
+
+.burger {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 150px;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.middle {
+  transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.element:hover{
+  cursor: pointer;
+}
+
+.element:hover .burger {
+  opacity: 0.6;
+  border: #f0ad4e 1px solid;
+}
+
+.element:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #f0ad4e ;
+  color: black;
+  font-size: 16px;
+  padding: 10px 16px;
+}
+
+.fixedBtn{
+
+  background-color: #f0ad4e;
+  color: black;
+  border-radius: 50%;
+  top: 200px;
+}
+
+.drink_img{
+
+  display: block;
+  width: 100%;
+  height: 350px;
+  margin: 0;
+  transition: transform .2s;
+  border: #f0ad4e solid 1px;
+}
+
+.drink_img:hover{
+
+  transform: scale(1.05);
+
+}
+
+
+
+@media(max-width: 600px){
+
+
+  .taswira{
+    max-height: 230px;
   }
-}
+
+  .drink_img{
+    height: 200px;
+  }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+
 
