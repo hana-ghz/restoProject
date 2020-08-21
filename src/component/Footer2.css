@@ -1,31 +1,29 @@
-*{
-    box-sizing: border-box;
-}
 
-li{
+
+.elFooter{
     list-style-type: none;
 }
 
-li a , h3 ,p ,h4 , span{
+.elFooter a , .h3Footer ,p , .h4Footer , .spanFooter{
     color: white;
 }
 
 
-h4 , h3{
+.h4Footer , .h3Footer{
     color: #ffbb33;
 }
 
-span{
+.spanFooter{
     padding-left: 16px;
 }
 
-svg{
+.icon{
     fill: #ffbb33;
     font-size:1.2em;
     margin-bottom: 5px;    
 }
 
-li a:hover{
+.elFooter a:hover{
     color:white;
     text-decoration-line: none;
 }
@@ -60,7 +58,7 @@ li a:hover{
 
 
 
-    li , h3 ,p ,h4 {
+    .elFooter , .h3Footer ,p ,.h4Footer {
         text-align: center;
     }
   
@@ -69,23 +67,19 @@ li a:hover{
 }
 
 @media (min-width: 768px) {  
-    footer{
-        height: 220px;
-        margin-top: -220px;
+   
 
-    }
-
-    li , h3 ,p ,h4 {
+    .elFooter , .h3Footer ,p ,.h4Footer {
         text-align: left;
         margin-left: 15px;
     }
-    h3{
+    .h3Footer{
         margin-left: 50px;
         margin-top: 50px;
     }
     
 
-    img{
+    #logoFooter{
         margin-left: 5px;
         margin-bottom: 5px;
         
@@ -95,10 +89,3 @@ li a:hover{
 }
 
 
-.row{width:100%}
-img{
-    width: 45%;
-    height: 45%;
-    
-    
-}
