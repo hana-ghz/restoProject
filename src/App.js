@@ -25,7 +25,6 @@ function App() {
         </Router>
         <Grid_meals/>
         <Drinks/>
-
         <Footer2/>
     </div>
   );
