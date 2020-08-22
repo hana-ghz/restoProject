@@ -4,42 +4,33 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import {BrowserRouter as Router , Switch , Route } from 'react-router-dom'
 
+import Home from './component/Home';
 import Nav2 from './component/Nav2';
-import BuildBurger from './component/BuildBurger';
+import Footer2 from './component/Footer2';
+import HealthyFood from './component/HealthyFood';
 import ContestForm from './component/ContestForm';
-import SliderComp from './component/SliderComp';
-import Grid_meals from './component/Grid_meals';
-import Drinks from './component/Drinks';
-import Footer2  from './component/Footer2'
+import BuildBurger from './component/BuildBurger';
+
 
 
 function App() {
   return (
-    <div className="App">
 
-    	 <Nav2/> 
-        <Router>
-                  <Route path="/" exact component={SliderComp}></Route>
-                  <Route path="/ContestForm" exact component={ContestForm}/>
-                  <Route path="/BuildBurger" exact component={BuildBurger}/>
-        </Router>
-        <Grid_meals/>
-        <Drinks/>
-        <Footer2/>
+    <Router>
+    <div className="App">  
 
-        <button className="social-media1">
-          <a href="#"><img src={require('./component/images/facebook.png')} href="#" alt='facebook is here' className="sm-icon"></img></a>
-        
-      </button>
-      <button className="social-media2">
-        <a href="#"><img src={require('./component/images/insta.png')} alt='insta is here' className="sm-icon"></img></a>
-        
-      </button>
-      <button className="social-media3">
-        <a href="#"><img src={require('./component/images/twitter.png')} alt='twitter is here' className="sm-icon"></img></a>
-        
-      </button>
+      <Nav2 />
+
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/HealthyFood" exact component={HealthyFood}/>
+        <Route path="/ContestForm" exact component={ContestForm}/>
+        <Route path="/BuildBurger" exact component={BuildBurger}/>
+      </Switch>
+      
+      <Footer2/>
     </div>
+    </Router>
   );
 }
 

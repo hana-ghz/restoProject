@@ -3,7 +3,7 @@ import React from 'react'
 function ContestForm() {
     return (
         <div>
-            contest Form
+            <h1>Contest form</h1>
         </div>
     )
 }
