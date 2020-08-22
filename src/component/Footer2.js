@@ -5,7 +5,7 @@ function Footer2() {
     const logo= require('./images/logo4.png')
     
     return (
-            <footer className="footer" >
+            <footer className="footer">
                 <div className="row" style={{width:"100%"}}>
                     <div className="col-md-4 col-sm-12 display ">
                         <img src={logo} id="logoFooter" alt="the logo"></img>

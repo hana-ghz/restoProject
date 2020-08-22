@@ -28,12 +28,13 @@ function SliderComp() {
                 </Carousel.Item>
 
                 <Carousel.Item className="CarouselItem" >
-                <img
+                    <Link to="/HealthyFood">
+                    <img
                         className="d-block w-100 image"
                         src={healthy}
                         alt="Second slide"
                     />
-                    
+                    </Link>
                 </Carousel.Item>
 
                 <Carousel.Item className="CarouselItem" >

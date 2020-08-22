@@ -2,7 +2,6 @@
   max-height: 400px;
 }
 
-
 .burger {
   opacity: 1;
   display: block;
@@ -12,7 +11,6 @@
   backface-visibility: hidden;
   border-radius: 8px;
   margin-bottom: 10px;
-
 }
 
 .middle {
@@ -28,8 +26,6 @@
 
   margin-bottom: 0px;
   padding-bottom: 0px;
-
-
 }
 
 html, body, #root, .App {
@@ -57,14 +53,6 @@ html, body, #root, .App {
   padding: 10px 16px;
 }
 
-.fixedBtn{
-
-  background-color: #f0ad4e;
-  color: black;
-  border-radius: 50%;
-  top: 200px;
-}
-
 .drink_img{
 
   display: block;
@@ -84,7 +72,7 @@ html, body, #root, .App {
 
 .social-media1{
   position: fixed;
-  top: 300px;
+  top: 250px;
   max-width: 50px;
   border: 0;
   padding: 0;
@@ -94,21 +82,19 @@ html, body, #root, .App {
 .social-media2{
 
   position: fixed;
-  top: 340px;
+  top: 290px;
   max-width: 50px;
   border: 0;
   padding: 0;
-
 }
 
 .social-media3{
 
   position: fixed;
-  top: 380px;
+  top: 330px;
   max-width: 50px;
   border: 0;
   padding: 0;
-
 }
 
 
@@ -124,7 +110,7 @@ html, body, #root, .App {
 
 }
 
-@media(max-width: 600px){
+@media(max-width: 767px){
 
   .taswira{
     max-height: 230px;
@@ -136,9 +122,8 @@ html, body, #root, .App {
 
   .social-media1, .social-media2, .social-media3{
     visibility: hidden;
+    width: 2px;
+    height: 2px;
   }
 
-
 }
-
-

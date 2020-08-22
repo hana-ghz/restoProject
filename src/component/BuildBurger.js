@@ -3,7 +3,7 @@ import React from 'react'
 function BuildBurger() {
     return (
         <div>
-            build your burger page
+            <h1>Build your burger motherfucker</h1>
         </div>
     )
 }
