@@ -1,19 +1,14 @@
 import React from 'react';
 import './Footer2.css';
 
-
-
-
 function Footer2() {
     const logo= require('./images/logo4.png')
-
-    
     
     return (
             <footer className="footer" >
                 <div className="row" style={{width:"100%"}}>
                     <div className="col-md-4 col-sm-12 display ">
-                        <img src={logo} id="logoFooter"></img>
+                        <img src={logo} id="logoFooter" alt="the logo"></img>
                         <h4 className="h4Footer"> About us</h4>
                         <p className="pFooter"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -29,7 +24,7 @@ function Footer2() {
                             </ul>
                     </div>
                     <hr/>
-                    <div  className="col-md-4 col-sm-12 content">
+                    <div  className="col-md-4 col-sm-12 content" style={{textAlign:'center'}}>
                         <h3 className="h3Footer"> Stay in touch</h3>
                             <ul>
                                 <li className="elFooter"> 
@@ -47,12 +42,17 @@ function Footer2() {
                                     </svg>
                                     <span className="spanFooter">resto123@gmail.com</span>
                                 </li>
+                                <li className="elFooter">
+                                    <img src={require('./images/facebook.png')} alt="facebook" className="footer-sm"></img>
+                                    <img src={require('./images/insta.png')} alt="insta" className="footer-sm"></img>
+                                    <img src={require('./images/twitter.png')} alt="twitter" className="footer-sm"></img>
+
+                                </li>
                             </ul>
                             <svg id="scroll" width="1em" height="1em" viewBox="0 0 16 16" class="icon bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-10.646.354a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 6.207V11a.5.5 0 0 1-1 0V6.207L5.354 8.354z"/>
                                     </svg>
                     </div>
-
 
                 </div>
             </footer>

@@ -20,7 +20,7 @@
 .icon{
     fill: #ffbb33;
     font-size:1.2em;
-    margin-bottom: 5px;    
+    margin-bottom: 5px;  
 }
 
 .elFooter a:hover{
@@ -62,7 +62,13 @@
         text-align: center;
     }
   
- 
+    .footer-sm{
+
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        margin-top: 8px;
+    }
    
 }
 
@@ -85,6 +91,11 @@
         
     }    
 
+    .footer-sm{
+       visibility: hidden;
+       width: 5px;
+       height: 5px;
+    }
   
 }
 

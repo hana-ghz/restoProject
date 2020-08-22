@@ -15,8 +15,8 @@ import Footer2  from './component/Footer2'
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor:'#fdebd0'}}>
-  
+    <div className="App">
+
     	 <Nav2/> 
         <Router>
                   <Route path="/" exact component={SliderComp}></Route>
@@ -26,6 +26,19 @@ function App() {
         <Grid_meals/>
         <Drinks/>
         <Footer2/>
+
+        <button className="social-media1">
+          <a href="#"><img src={require('./component/images/facebook.png')} href="#" alt='facebook is here' className="sm-icon"></img></a>
+        
+      </button>
+      <button className="social-media2">
+        <a href="#"><img src={require('./component/images/insta.png')} alt='insta is here' className="sm-icon"></img></a>
+        
+      </button>
+      <button className="social-media3">
+        <a href="#"><img src={require('./component/images/twitter.png')} alt='twitter is here' className="sm-icon"></img></a>
+        
+      </button>
     </div>
   );
 }
