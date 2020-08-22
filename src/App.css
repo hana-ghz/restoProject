@@ -25,7 +25,7 @@
   -ms-transform: translate(-50%, -50%)
 }
   .App {
-  text-align: center;
+
   margin-bottom: 0px;
   padding-bottom: 0px;
 
@@ -77,14 +77,54 @@ html, body, #root, .App {
 
 .drink_img:hover{
 
-  transform: scale(1.05);
+  transform: scale(1.02);
 
 }
 
 
+.social-media1{
+  position: fixed;
+  top: 300px;
+  max-width: 50px;
+  border: 0;
+  padding: 0;
+
+}
+
+.social-media2{
+
+  position: fixed;
+  top: 340px;
+  max-width: 50px;
+  border: 0;
+  padding: 0;
+
+}
+
+.social-media3{
+
+  position: fixed;
+  top: 380px;
+  max-width: 50px;
+  border: 0;
+  padding: 0;
+
+}
+
+
+.sm-icon{
+  width: 40px;
+  height: 40px;
+  transition: transform .2s;
+  position: absolute;
+}
+
+.sm-icon:hover{
+  transform: translate(5px,0px);  
+
+}
 
 @media(max-width: 600px){
-
 
   .taswira{
     max-height: 230px;
@@ -92,6 +132,10 @@ html, body, #root, .App {
 
   .drink_img{
     height: 200px;
+  }
+
+  .social-media1, .social-media2, .social-media3{
+    visibility: hidden;
   }
 
 

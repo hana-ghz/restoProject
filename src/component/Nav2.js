@@ -18,7 +18,7 @@ const title={
 function Nav2() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="danger" variant="dark" fixed="top" style={{borderRadius:'5px'}} >
+            <Navbar collapseOnSelect expand="lg" bg="danger" variant="dark" fixed="top" style={{borderRadius:'5px', textAlign:'center'}} >
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   
@@ -47,20 +47,21 @@ function Nav2() {
         </svg>&#9;Home</Nav.Link>
        </React.Fragment>
       
+       <React.Fragment>
+        
+        <Nav.Link href="#" className="text-warning"  style={{ marginRight:'15px' ,fontSize:'20px'}}><svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-layout-text-sidebar-reverse" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+  <path fill-rule="evenodd" d="M5 15V1H4v14h1zm8-11.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
+</svg>&#9;Menu</Nav.Link>
+          </React.Fragment>
+
+
         <React.Fragment >
         
-      <Nav.Link href="#" className="text-warning" style={{marginLeft:'0px',paddingLeft:'0',fontSize:'20px'}}><svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <Nav.Link href="#" className="text-warning" style={{marginLeft:'0px',paddingLeft:'0',fontSize:'20px',marginRight:'10px'}}><svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
 </svg>&#9;Our Map</Nav.Link>
         </React.Fragment>
-
-        <React.Fragment>
-        
-        <Nav.Link href="#" className="text-warning"  style={{ marginRight:'15px' ,fontSize:'20px'}}><svg width="40px" height="40px" viewBox="0 0 16 16" class="bi bi-bicycle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" d="M3 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-    <path fill-rule="evenodd" d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935 2.375 3.8a.5.5 0 1 1-.848.53L10.5 6.943l-2.076 3.322A.5.5 0 0 1 8 10.5H3a.5.5 0 0 1-.424-.765L5 5.857V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443L3.902 9.5h3.196L5.5 6.943zM8 9.057L9.598 6.5H6.402L8 9.057z"/>
-  </svg>&#9;Delivery</Nav.Link>
-          </React.Fragment>
   
           <React.Fragment >
           
