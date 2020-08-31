@@ -1,7 +1,6 @@
 import React from 'react'
-import { Carousel ,  Container} from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import './SliderComp.css';
-import {   Button} from 'react-bootstrap';
 import {Link } from 'react-router-dom';
 
 
@@ -62,16 +61,16 @@ function SliderComp() {
     )
 }
 
-const  joinBtn={
-    position: "absolute",
-     right:"30px",
-     bottom: "0px",
-    fontWeight:"bold",
-    borderRadius:"0",
-    color:"white",
-    backgroundColor:"primary",
-    textDecoration :"none"
-  }
+// const  joinBtn={
+//     position: "absolute",
+//      right:"30px",
+//      bottom: "0px",
+//     fontWeight:"bold",
+//     borderRadius:"0",
+//     color:"white",
+//     backgroundColor:"primary",
+//     textDecoration :"none"
+//   }
 
 
 export default SliderComp

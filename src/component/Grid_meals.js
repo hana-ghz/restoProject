@@ -7,44 +7,44 @@ function Grid_meals() {
     return (
         <div>
                 <Container fluid style={{ paddingTop:'10px', paddingBottom:'10px', backgroundColor:' #eaeded ', borderRadius:'8px', textAlign:'center'}}>
-                        <h3 style={{color:' #e74c3c' , paddingTop:'5px', textDecoration:'underline', fontWeight:'bold'}}>What do you wanna order?</h3>
+                        <h3 style={{color:' #EB5241' , paddingTop:'5px', textDecoration:'underline', fontWeight:'bold'}}>What do you wanna order?</h3>
                         <Row style={{paddingTop:"19px"}}  xs={2} md={3} lg={6} >
                                 <Col className="element" >
-                                <img src={ require('./images/burger1.jpg') } alt=" not found" className="burger" />
+                                <img src={ require('./images/Menu/burgers/burger1.jpg') } alt=" not found" className="burger" />
                                 <div className="middle">
                                         <div className="text">John Doe</div>
                                 </div>
                                 </Col>
 
                                 <Col className="element">  
-                                <img src={ require('./images/burger6.jpg') } alt=" not found" className="burger"/>
+                                <img src={ require('./images/Menu/burgers/burger6.jpg') } alt=" not found" className="burger"/>
                                 <div className="middle">
                                         <div className="text">John Doe</div>
                                 </div></Col>
 
                                 <Col className="element">
-                                <img src={ require('./images/burger3.jpg') } alt=" not found" className="burger" />
+                                <img src={ require('./images/Menu/burgers/burger3.jpg') } alt=" not found" className="burger" />
                                 <div className="middle">
                                         <div className="text">John Doe</div>
                                 </div>
                                 </Col>
 
                                 <Col className="element">
-                                <img src={ require('./images/burger4.jpg') } alt=" not found" className="burger"/>
+                                <img src={ require('./images/Menu/burgers/burger4.jpg') } alt=" not found" className="burger"/>
                                 <div className="middle">
                                         <div className="text">John Doe</div>
                                 </div>
                                 </Col>
 
                                 <Col className="element box">
-                                <img src={ require('./images/burger5.jpg') } alt=" not found" className="burger"/>
+                                <img src={ require('./images/Menu/burgers/burger5.jpg') } alt=" not found" className="burger"/>
                                 <div class="middle">
                                         <div className="text">John Doe</div>
                                 </div>
                                 </Col>   
 
                                 <Col className="element" >
-                                <img src={ require('./images/burger1.jpg') } alt=" not found" className="burger" />
+                                <img src={ require('./images/Menu/burgers/burger1.jpg') } alt=" not found" className="burger" />
                                 <div className="middle">
                                         <div className="text">John Doe</div>
                                 </div>

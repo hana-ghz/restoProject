@@ -10,7 +10,7 @@ import Footer2 from './component/Footer2';
 import HealthyFood from './component/HealthyFood';
 import ContestForm from './component/ContestForm';
 import BuildBurger from './component/BuildBurger';
-
+import Menu from './component/Menu';
 
 
 function App() {
@@ -22,13 +22,17 @@ function App() {
       <Nav2 />
 
       <Switch>
+        
         <Route path="/" exact component={Home} />
         <Route path="/HealthyFood" exact component={HealthyFood}/>
         <Route path="/ContestForm" exact component={ContestForm}/>
         <Route path="/BuildBurger" exact component={BuildBurger}/>
+        <Route path="/Menu" exact component= {Menu}/>
       </Switch>
       
-      <Footer2/>
+      
+      <Footer2/> 
+      
     </div>
     </Router>
   );
