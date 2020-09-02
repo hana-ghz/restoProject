@@ -36,7 +36,7 @@ function Grid_meals() {
                                 </div>
                                 </Col>
 
-                                <Col className="element box">
+                                <Col className="element">
                                 <img src={ require('./images/burger5.jpg') } alt=" not found" className="burger"/>
                                 <div class="middle">
                                         <div className="text">John Doe</div>

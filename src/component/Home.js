@@ -1,10 +1,6 @@
 import React from 'react'
-import {BrowserRouter as Router , Switch , Route } from 'react-router-dom'
-import {Link} from 'react-router-dom'
 
 import Nav2 from './Nav2';
-import BuildBurger from './BuildBurger';
-import ContestForm from './ContestForm';
 import SliderComp from './SliderComp';
 import Grid_meals from './Grid_meals';
 import Drinks from './Drinks';
@@ -13,7 +9,6 @@ import Drinks from './Drinks';
 function Home() {
     return (
         <div>
-
             
     	 <Nav2/> 
          <SliderComp/>

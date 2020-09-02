@@ -3,7 +3,7 @@ import React from 'react'
 function HealthyFood() {
     return (
         <div>
-            <h1>Healthy Food Page</h1>
+            <h1 style={{height:'68.5px'}}>Healthy Food Page</h1>
         </div>
     )
 }
