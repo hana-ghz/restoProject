@@ -33,13 +33,20 @@ function DisplayComp(props) {
         
         return(
            
-             <Col className="element"  key= {index}>
-        
-                <img src={ require(`./images/Menu/${category}/${food}.jpg`) } alt=" not found" className="burger" />
-                <div className="middle">
-                    <div className="text">John Doe</div>
-                </div>
+             <Col className="element "  key= {index}>
+                    <div style={{height:'300px' }}>
 
+                    <img src={ require(`./images/Menu/${category}/${food}.jpg`) } alt=" not found" className="burger" />
+                     <span id="spanMenu" className="text middle">John Doe</span>
+                     <p id="foodDescrip">
+                         place holder -   placeholder -  place holder -  place holder - 
+                         place holder 
+                     </p>
+
+                    </div>
+                     
+                 
+                
              </Col>        
        )
        

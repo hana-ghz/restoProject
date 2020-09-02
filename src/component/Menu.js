@@ -36,13 +36,14 @@ function Menu() {
 }
 
  const title={
-    fontSize:'200px',
+    fontSize:'15.5vw',
     textAlign:'center',
     paddingTop:'50px',color:' #EB6353'
 }
 
  const h1Style={
-    marginTop:'40px',
+    marginTop:'35px',
+
     fontFamily: 'Oxygen , sansSerif'
  }
 
