@@ -46,7 +46,6 @@ function OurMap() {
     function CheckTheBox(){
         return(
             haveLocation ? setChecked(!checked) : (alert('Your have to allow the location detection to use this option, reload the page') )
-            
         )
      }
 
@@ -59,7 +58,7 @@ function OurMap() {
             <Container fluid style={{ paddingTop:'10px', paddingBottom:'10px', backgroundColor:' #eaeded ', borderRadius:'8px'}}>
 
                         <Row style={{margin:'0px',padding:'0px'}} xs={1} md={1} lg={2} >
-                                <Col className="element" >
+                                <Col className="element" lg={8} >
                                     <Map className="map" center={position} zoom={zoom}>
                                         <TileLayer
                                         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -98,14 +97,12 @@ function OurMap() {
                                 </Col>
 
 
-                                <Col className="element" >
-                                    <h3 className="map_h">Closest resto to:</h3>
+                                <Col className="element" lg={4}>
+                                    <h3 className="map_h">Find your position:</h3>
                                     <br></br>
                                     <Form >
                                         <Form.Group controlId="fromControl">
-                                            <Form.Label >Your location</Form.Label>
-                                            <Form.Control type="input" placeholder="Enter your location or let us detect it" />
-                                            <br></br>
+                                            
                                             <Form.Group controlId="formBasicCheckbox">
                                             <Form.Check type="checkbox" label="Detect my position" checked={checked} onChange={CheckTheBox} />
                                             </Form.Group>

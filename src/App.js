@@ -12,7 +12,8 @@ import ContestForm from './component/ContestForm';
 import BuildBurger from './component/BuildBurger';
 import OurMap from './component/OurMap';
 import About from './component/About';
-
+import Menu from './component/Menu';
+import pizzaOffer from './component/pizzaOffer';
 
 
 function App() {
@@ -24,15 +25,20 @@ function App() {
       <Nav2 />
 
       <Switch>
+        
         <Route path="/" exact component={Home} />
         <Route path="/HealthyFood" exact component={HealthyFood}/>
         <Route path="/ContestForm" exact component={ContestForm}/>
         <Route path="/BuildBurger" exact component={BuildBurger}/>
         <Route path="/OurMap" exact component={OurMap}/>
         <Route path="/About" exact component={About}/>
+        <Route path="/Menu" exact component= {Menu}/>
+        <Route path="/pizzaOffer" exact component= {pizzaOffer}/>
       </Switch>
       
-      <Footer2/>
+      
+      <Footer2/> 
+      
     </div>
     </Router>
   );

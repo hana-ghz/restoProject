@@ -1,0 +1,35 @@
+.the_contest{
+
+    background: url(images/photoContest2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contestHeader{
+    text-align: center;
+    font-style: italic ;
+    color: #FF3D37;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 20px ;
+}
+
+.formHeader{
+    text-align: center;
+    font-style: italic ;
+    color: #FF3D37;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 20px ;
+    margin-top: 15px;
+}
+
+.contestDescription{
+
+    color: white;
+    font-size: 20px;
+    display: inline;
+    line-height: 1.8;
+
+}

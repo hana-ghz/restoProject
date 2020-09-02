@@ -7,7 +7,8 @@ function Drinks() {
        <Container fluid>
            <Row>
                  <Col xs={6} md={7} style={{padding:'0'}}>
-                       <img src={ require('./images/pizza.jpg') } alt=" not found" className="drink_img"/>
+                       <a href='/pizzaOffer'><img src={ require('./images/pizza.jpg') } alt=" not found" className="drink_img"/></a>
+                       
                  </Col>
                  <Col xs={6} md={5} style={{padding:'0'}}>
                        <img src={ require('./images/coca.jpg') } alt=" not found" className="drink_img" />
