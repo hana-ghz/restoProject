@@ -10,7 +10,10 @@ import Footer2 from './component/Footer2';
 import HealthyFood from './component/HealthyFood';
 import ContestForm from './component/ContestForm';
 import BuildBurger from './component/BuildBurger';
+import OurMap from './component/OurMap';
+import About from './component/About';
 import Menu from './component/Menu';
+import pizzaOffer from './component/pizzaOffer';
 
 
 function App() {
@@ -27,7 +30,10 @@ function App() {
         <Route path="/HealthyFood" exact component={HealthyFood}/>
         <Route path="/ContestForm" exact component={ContestForm}/>
         <Route path="/BuildBurger" exact component={BuildBurger}/>
+        <Route path="/OurMap" exact component={OurMap}/>
+        <Route path="/About" exact component={About}/>
         <Route path="/Menu" exact component= {Menu}/>
+        <Route path="/pizzaOffer" exact component= {pizzaOffer}/>
       </Switch>
       
       

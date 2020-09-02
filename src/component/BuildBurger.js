@@ -6,6 +6,7 @@ import '../App.css';
 
 function BuildBurger() {
     return (
+<<<<<<< HEAD
     <div>
         <img id="buildPageImage" src={require("./images/Build/build2.jpg")}></img>
         <h1 id="buildPageTitle"  > build your own burgers </h1>
@@ -31,6 +32,12 @@ function BuildBurger() {
         <div style={{height:'400px'}}></div>
  
     </div>
+=======
+        <div>
+            <div style={{height:'68.5px'}}></div>
+            <h1>Build your burger motherfucker</h1>
+        </div>
+>>>>>>> 32c4751e06cba9b82b36bb9f97683a1643c1e9d5
     )
 }
 

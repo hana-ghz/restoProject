@@ -58,9 +58,7 @@ function Grid_meals() {
                         </svg>
                         </a>
                 </Container>
-
-            
-
+                
         </div>
     )
 }

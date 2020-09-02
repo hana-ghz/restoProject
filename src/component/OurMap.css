@@ -1,0 +1,46 @@
+.map_header{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #eaeded;
+    color: #DC143C;
+    font-size: 50px;
+    border-radius: 15px;
+
+}
+
+.map{
+
+    border: black 2px solid;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    height: 420px;
+}
+
+.map_h{
+    margin-top: 15px;
+    text-decoration:underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width:767px){
+
+.map_header{
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #eaeded;
+    color: #DC143C;
+    font-size: 35px;
+    border-radius: 15px;
+    text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000; 
+}
+
+}

@@ -11,7 +11,6 @@ function Menu() {
     const burgers = [ "burger1" , "burger2", "burger3" , "burger4" , "burger5" ,"burger6" , "burger7", "burger8" , "burger9" , "burger10"]
     const pizzas = [ "pizza1" , "pizza2", "pizza3" , "pizza4" , "pizza5" ,"pizza6" , "pizza7", "pizza8" , "pizza9" , "pizza10", "pizza11", "pizza12"]
     const desserts = [ "dessert1" , "dessert2", "dessert3" , "dessert4" , "dessert5" ]
-    const background='./images/Menu/background2.jpg'
     
     return (
         <div style={{backgroundImage: `url(${require("./images/Menu/background4.jpg")})`  ,backgroundRepeat: 'no-repeat' }}>
@@ -38,7 +37,8 @@ function Menu() {
  const title={
     fontSize:'15.5vw',
     textAlign:'center',
-    paddingTop:'50px',color:' #EB6353'
+    paddingTop:'50px',color:' #EB6353',
+    fontStyle:'italic'
 }
 
  const h1Style={
