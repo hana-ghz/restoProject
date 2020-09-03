@@ -38,7 +38,6 @@ function Menu() {
     fontSize:'15.5vw',
     textAlign:'center',
     paddingTop:'50px',color:' #EB6353',
-    fontStyle:'italic'
 }
 
  const h1Style={
