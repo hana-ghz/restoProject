@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "185a0b593a637c287ecfc93c899e1ce5",
+    "revision": "e1a71c618ff86033f5261041c4728fae",
     "url": "/restoProject/index.html"
   },
   {
-    "revision": "a7c1c57a8ea3e4e3cb90",
+    "revision": "abd1a2d8ed87df518771",
     "url": "/restoProject/static/css/2.8cd54ee5.chunk.css"
   },
   {
-    "revision": "949331393296489445c5",
-    "url": "/restoProject/static/css/main.b2734dd4.chunk.css"
+    "revision": "82c0435ed38465bafd6f",
+    "url": "/restoProject/static/css/main.5727c41a.chunk.css"
   },
   {
-    "revision": "a7c1c57a8ea3e4e3cb90",
-    "url": "/restoProject/static/js/2.b788e125.chunk.js"
+    "revision": "abd1a2d8ed87df518771",
+    "url": "/restoProject/static/js/2.1f6de0bc.chunk.js"
   },
   {
     "revision": "6791e7fb9584d65ed87d655035c7da95",
-    "url": "/restoProject/static/js/2.b788e125.chunk.js.LICENSE.txt"
+    "url": "/restoProject/static/js/2.1f6de0bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "949331393296489445c5",
-    "url": "/restoProject/static/js/main.e369864e.chunk.js"
+    "revision": "82c0435ed38465bafd6f",
+    "url": "/restoProject/static/js/main.7bf0f7a7.chunk.js"
   },
   {
     "revision": "6f0df57125c026d7a6e0",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d9a10890ee54ca44fbf8adcccabc3b2a",
     "url": "/restoProject/static/media/background1.d9a10890.jpg"
+  },
+  {
+    "revision": "56f58413fff6d156765fe443ee17eb88",
+    "url": "/restoProject/static/media/background10.56f58413.jpg"
   },
   {
     "revision": "6884588dd6b1f168d89555f3d4d75763",
@@ -148,6 +152,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restoProject/static/media/dessert5.1cdc7896.jpg"
   },
   {
+    "revision": "261ececdfaad5a1f03c440420b882a3a",
+    "url": "/restoProject/static/media/drink1.261ececd.jpg"
+  },
+  {
+    "revision": "009c8973d6662ce182db5c3b697d4014",
+    "url": "/restoProject/static/media/drink2.009c8973.jpg"
+  },
+  {
+    "revision": "fa02cb68529e1ae428bf5b11721d2cf6",
+    "url": "/restoProject/static/media/drink3.fa02cb68.jpg"
+  },
+  {
+    "revision": "9db1601f3e347eba7c6d30615c711697",
+    "url": "/restoProject/static/media/drink4.9db1601f.jpg"
+  },
+  {
+    "revision": "df33874affe5d5d1b32a06b8223b3177",
+    "url": "/restoProject/static/media/drink5.df33874a.jpg"
+  },
+  {
+    "revision": "04294cdb0471d41762c19d242e35f22e",
+    "url": "/restoProject/static/media/drink6.04294cdb.jpg"
+  },
+  {
+    "revision": "8d92f9b26c2b479eb88e86b8246adafd",
+    "url": "/restoProject/static/media/drink7.8d92f9b2.jpg"
+  },
+  {
     "revision": "061bd213000bd1078b74c4f8a68c33e9",
     "url": "/restoProject/static/media/fast-food.061bd213.png"
   },
@@ -218,6 +250,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "896ed73a7c1af2c0bc47f343a633808c",
     "url": "/restoProject/static/media/pizza9.896ed73a.jpg"
+  },
+  {
+    "revision": "7a459a491f84ff2dcf0419f39116c873",
+    "url": "/restoProject/static/media/pizzaOffer1.7a459a49.jpg"
   },
   {
     "revision": "e539000eb44a2639dd0463d7e278b8ef",
