@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import {BrowserRouter as Router , Switch , Route } from 'react-router-dom'
+import {HashRouter as Router , Switch , Route } from 'react-router-dom'
 
 import Home from './component/Home';
 import Nav2 from './component/Nav2';
@@ -19,7 +19,7 @@ import pizzaOffer from './component/pizzaOffer';
 function App() {
   return (
 
-    <Router>
+    <Router basename="/">
     <div className="App">  
 
       <Nav2 />
@@ -35,7 +35,6 @@ function App() {
         <Route path="/Menu" exact component= {Menu}/>
         <Route path="/pizzaOffer" exact component= {pizzaOffer}/>
       </Switch>
-      
       
       <Footer2/> 
       
