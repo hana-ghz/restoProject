@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1a71c618ff86033f5261041c4728fae",
+    "revision": "16888a61d13cfca316e401d6df4e7928",
     "url": "/restoProject/index.html"
   },
   {
-    "revision": "abd1a2d8ed87df518771",
+    "revision": "c85b612a7470f297bb11",
     "url": "/restoProject/static/css/2.8cd54ee5.chunk.css"
   },
   {
-    "revision": "82c0435ed38465bafd6f",
-    "url": "/restoProject/static/css/main.5727c41a.chunk.css"
+    "revision": "2bdb6b6b8b2a4538c3b2",
+    "url": "/restoProject/static/css/main.f0b58054.chunk.css"
   },
   {
-    "revision": "abd1a2d8ed87df518771",
-    "url": "/restoProject/static/js/2.1f6de0bc.chunk.js"
+    "revision": "c85b612a7470f297bb11",
+    "url": "/restoProject/static/js/2.fee9ab47.chunk.js"
   },
   {
     "revision": "6791e7fb9584d65ed87d655035c7da95",
-    "url": "/restoProject/static/js/2.1f6de0bc.chunk.js.LICENSE.txt"
+    "url": "/restoProject/static/js/2.fee9ab47.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "82c0435ed38465bafd6f",
-    "url": "/restoProject/static/js/main.7bf0f7a7.chunk.js"
+    "revision": "2bdb6b6b8b2a4538c3b2",
+    "url": "/restoProject/static/js/main.a014aaad.chunk.js"
   },
   {
     "revision": "6f0df57125c026d7a6e0",
@@ -184,6 +184,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restoProject/static/media/fast-food.061bd213.png"
   },
   {
+    "revision": "6914440a83e71cdab8b3e10a35f11d2d",
+    "url": "/restoProject/static/media/healthyFoodImg1.6914440a.jpg"
+  },
+  {
     "revision": "8290266a5fb402a34b96f890bbdb2d60",
     "url": "/restoProject/static/media/insta.8290266a.png"
   },
@@ -258,6 +262,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e539000eb44a2639dd0463d7e278b8ef",
     "url": "/restoProject/static/media/restaurant.e539000e.jpg"
+  },
+  {
+    "revision": "0c9d53b6f086d191940c4d97d293330e",
+    "url": "/restoProject/static/media/salad1.0c9d53b6.jpg"
+  },
+  {
+    "revision": "0b735dc0da730e8d542869b73231ec6e",
+    "url": "/restoProject/static/media/salad2.0b735dc0.jpg"
+  },
+  {
+    "revision": "5fd782725c6e796e55b2517967c9a8d1",
+    "url": "/restoProject/static/media/salad3.5fd78272.jpg"
+  },
+  {
+    "revision": "759224f4855a88cc79f96d7c94bef3ae",
+    "url": "/restoProject/static/media/salad4.759224f4.jpg"
+  },
+  {
+    "revision": "4ffede985d78f332ae2d40bb41115572",
+    "url": "/restoProject/static/media/salad5.4ffede98.jpg"
+  },
+  {
+    "revision": "db49632affa20151b4116ef40375d19f",
+    "url": "/restoProject/static/media/salad6.db49632a.jpg"
+  },
+  {
+    "revision": "f2b3f58b0f7095cc5e035dedbccafcdc",
+    "url": "/restoProject/static/media/salad7.f2b3f58b.jpg"
+  },
+  {
+    "revision": "98a30c67e78959feb2609f15922d7a26",
+    "url": "/restoProject/static/media/salad8.98a30c67.jpg"
   },
   {
     "revision": "8f35a40403a84631c4125c4f1859c7a6",
