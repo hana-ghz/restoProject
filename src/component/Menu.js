@@ -13,16 +13,16 @@ function Menu() {
         setmeals(data)
     }, [])
 
-    const burgers= meals.map(function(meal){ return meal.cat==="burger" ? `${meal.cat+meal.number}`: ''}).filter(function(meal){return(meal!=='')})
+    const burgers= meals.map(function(meal){ return meal.cat==="burger" ? `${meal.cat+meal.number} ${meal.name} ${meal.price} ${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})
+
+    const pizzas= meals.map(function(meal){ return meal.cat==="pizza" ? `${meal.cat+meal.number} ${meal.name} ${meal.price} ${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})
+
+    const desserts= meals.map(function(meal){ return meal.cat==="dessert" ? `${meal.cat+meal.number} ${meal.name} ${meal.price} ${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})
+
+    const drinks= meals.map(function(meal){ return meal.cat==="drink" ? `${meal.cat+meal.number} ${meal.name} ${meal.price} ${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})
     
-    const pizzas= meals.map(function(meal){ return meal.cat==="pizza" ? `${meal.cat+meal.number}`: ''}).filter(function(meal){return(meal!=='')})
+    const salads= meals.map(function(meal){ return meal.cat==="salad" ? `${meal.cat+meal.number} ${meal.name} ${meal.price} ${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})
 
-    const desserts= meals.map(function(meal){ return meal.cat==="dessert" ? `${meal.cat+meal.number}`: ''}).filter(function(meal){return(meal!=='')})
-
-    const drinks= meals.map(function(meal){ return meal.cat==="drink" ? `${meal.cat+meal.number}`: ''}).filter(function(meal){return(meal!=='')})
-
-    const salads= meals.map(function(meal){ return meal.cat==="salad" ? `${meal.cat+meal.number}`: ''}).filter(function(meal){return(meal!=='')})
-  
 
     return (
         <div style={{backgroundImage: `url(${require("./images/Menu/background10.jpg")})`  }}>
@@ -33,16 +33,16 @@ function Menu() {
                 
 
                 <h1 style={h1Style}>Our Pizzas</h1>
-                <DisplayComp foods={pizzas}  category='pizzas'/>
+                <DisplayComp foods={pizzas}  category='pizzas' />
 
                 <h1 style={h1Style}>Our Salads</h1>
                 <DisplayComp foods={salads}  category='salads'/>
 
                 <h1 style={h1Style}>Our Desserts</h1>
-                <DisplayComp foods={desserts}  category='desserts'/>
+                <DisplayComp foods={desserts}  category='desserts' />
 
                 <h1 style={h1Style}>Our Drinks</h1>
-                <DisplayComp foods={drinks}  category='drinks'/>
+                <DisplayComp foods={drinks}  category='drinks' />
 
 
             </Container>

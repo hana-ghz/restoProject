@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import DisplayComp from './DisplayComp';
-
+import data from '../data.json'
 
 function pizzaOffer() {
 
-    const pizzas = [ "pizza1" , "pizza2", "pizza3" , "pizza4" , "pizza5" ,"pizza6" , "pizza7", "pizza8" , "pizza9" , "pizza10", "pizza11", "pizza12"]
-
+    const pizzas= data.map(function(meal){ return meal.cat==="pizza" ? `${meal.cat+meal.number} ${meal.name} ${meal.price} ${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})
 
     return (
         <div>

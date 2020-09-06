@@ -19,7 +19,7 @@ function OurMap() {
     const [larg, setLarg]=useState(0)
     const [long, setLong]=useState(0)
     const [haveLocation,setHaveLocation]= useState(false);
-    const [ask,setAsk]= useState(false);
+    const [error,setError]= useState("");
 
     const myIcon= L.icon({
         iconUrl: require('./images/burger.png') ,
@@ -35,13 +35,14 @@ function OurMap() {
 
 
     useEffect(() => {
+
         navigator.geolocation.getCurrentPosition(function(position) {
             setLarg(position.coords.latitude);
             setLong(position.coords.longitude);
             console.log(position.coords.latitude, position.coords.longitude);
             setHaveLocation(true);
-        },alert("You have to allow location detection to use detect position option"));
-    },[ask])
+        });
+    },[error])
 
     return (
         <div>
@@ -103,9 +104,10 @@ function OurMap() {
                                         </Form.Group>
 
                                                                             
-                                        <Button onClick={()=> (haveLocation) ? ( setPosition({lat: larg, lng:long }) ,setZoom(15)) :  setAsk(!ask) } variant="primary" >
+                                        <Button onClick={()=> (haveLocation) ? ( setPosition({lat: larg, lng:long }) ,setZoom(15),setError(""))  :  setError("you have to to allow location to use this option") } variant="primary" >
                                             Detect my position
                                         </Button>
+                                        <h5  style={{color:'red',marginTop:'10px'}}>{error}</h5>
                                     </Form>
                                 </Col>
 

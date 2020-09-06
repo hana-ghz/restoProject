@@ -43,12 +43,7 @@ function SliderComp() {
                             src={contest}
                             alt="Third slide"
                         />
-                    </Link>
-
-                    
-                    <Carousel.Caption>
-                    <h1 className="d-sm-none d-md-block"> your chance to win a 100dt gift card</h1>
-                    </Carousel.Caption>                
+                    </Link>              
                 </Carousel.Item>
 
                 

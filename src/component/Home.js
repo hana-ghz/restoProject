@@ -10,10 +10,6 @@ import Drinks from './Drinks';
 
 function Home() {
 
-
-
-    const [posts, setPosts] = useState([])
-
    
     return (
         <div>
@@ -22,15 +18,6 @@ function Home() {
          <SliderComp/>
           <Grid_meals/>
           <Drinks/>
-
-        <button onClick={()=>setPosts(data)}>show data</button>
-        <button onClick={()=>setPosts([])}>hide data</button>
-
-
-        
-        <ul>
-          {posts.map(post => post.cat==="burger" ? <li key={post.number}>{post.name}-{post.number}</li> :'' )}
-        </ul>
         
         <button className="social-media1">
           <a href="https://www.facebook.com/sofiene.chihy/" target="_blank"><img src={require('./images/facebook.png')} href="#" alt='facebook is here' className="sm-icon"></img></a>

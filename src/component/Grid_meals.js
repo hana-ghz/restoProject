@@ -1,54 +1,96 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col , Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import '../App.css'
+import data from '../data.json'
 
 function Grid_meals() {
     return (
+
         <div>
                 <Container fluid style={{ paddingTop:'10px', paddingBottom:'10px', backgroundColor:' #eaeded ', borderRadius:'8px', textAlign:'center'}}>
                         <h3 style={{color:' #EB5241' , paddingTop:'5px', textDecoration:'underline', fontWeight:'bold'}}>What do you wanna order?</h3>
-                        <Row style={{paddingTop:"19px"}}  xs={2} md={3} lg={6} >
-                                <Col className="element" >
-                                <img src={ require('./images/Menu/burgers/burger1.jpg') } alt=" not found" className="burger" />
-                                <div className="middle">
-                                        <div className="text">John Doe</div>
-                                </div>
+                        <Row style={{paddingTop:"19px" }}  xs={2} md={3} lg={6} >
+                                <Col className="element" style={{marginBottom:'20px'}} >
+
+                                <img src={ require('./images/Menu/burgers/'+data.map(function(meal){ return (meal.cat==="burger" && meal.number===1) ? `${meal.name + meal.number}`: ''}).filter(function(meal){return(meal!=='')})+'.jpg') } alt=" not found" className="burger" />
+
+                                <span className="text middle" ><strong>{data.map(function(meal){ return (meal.cat==="burger" && meal.number===1) ? `${meal.name}`: ''}).filter(function(meal){return(meal!=='')})} </strong><br/> 
+                                {data.map(function(meal){ return (meal.cat==="burger" && meal.number===1) ? `${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})}<br/> 
+                                {data.map(function(meal){ return (meal.cat==="burger" && meal.number===1) ? `price: ${meal.price}`: ''}).filter(function(meal){return(meal!=='')})}
+                                </span>
+
+                                <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
+
                                 </Col>
 
-                                <Col className="element">  
-                                <img src={ require('./images/Menu/pizzas/pizza11.jpg') } alt=" not found" className="burger"/>
-                                <div className="middle">
-                                        <div className="text">John Doe</div>
-                                </div></Col>
+                                <Col className="element" style={{marginBottom:'20px'}}>  
+                               
 
-                                <Col className="element">
-                                <img src={ require('./images/Menu/desserts/dessert4.jpg') } alt=" not found" className="burger" />
-                                <div className="middle">
-                                        <div className="text">John Doe</div>
-                                </div>
+                                <img src={ require('./images/Menu/pizzas/'+data.map(function(meal){ return (meal.cat==="pizza" && meal.number===11) ? `${meal.name + meal.number}`: ''}).filter(function(meal){return(meal!=='')})+'.jpg') } alt=" not found" className="burger" />
+
+                                <span className="text middle" ><strong>{data.map(function(meal){ return (meal.cat==="pizza" && meal.number===11) ? `${meal.name}`: ''}).filter(function(meal){return(meal!=='')})} </strong><br/> 
+                                {data.map(function(meal){ return (meal.cat==="pizza" && meal.number===11) ? `${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})}<br/> 
+                                {data.map(function(meal){ return (meal.cat==="pizza" && meal.number===11) ? `price: ${meal.price}`: ''}).filter(function(meal){return(meal!=='')})}
+                                </span>
+
+                                <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
+
+
+
                                 </Col>
 
-                                <Col className="element">
-                                <img src={ require('./images/Menu/burgers/burger4.jpg') } alt=" not found" className="burger"/>
-                                <div className="middle">
-                                        <div className="text">John Doe</div>
-                                </div>
+                                <Col className="element" style={{marginBottom:'20px'}}>
+                                
+                                <img src={ require('./images/Menu/desserts/'+data.map(function(meal){ return (meal.cat==="dessert" && meal.number===4) ? `${meal.name + meal.number}`: ''}).filter(function(meal){return(meal!=='')})+'.jpg') } alt=" not found" className="burger" />
+
+                                <span className="text middle" ><strong>{data.map(function(meal){ return (meal.cat==="dessert" && meal.number===4) ? `${meal.name}`: ''}).filter(function(meal){return(meal!=='')})} </strong><br/> 
+                                {data.map(function(meal){ return (meal.cat==="dessert" && meal.number===4) ? `${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})}<br/> 
+                                {data.map(function(meal){ return (meal.cat==="dessert" && meal.number===4) ? `price: ${meal.price}`: ''}).filter(function(meal){return(meal!=='')})}
+                                </span>
+
+                                <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
+
+
+
                                 </Col>
 
-                                <Col className="element box">
-                                <img src={ require('./images/Menu/burgers/burger5.jpg') } alt=" not found" className="burger"/>
-                                <div class="middle">
-                                        <div className="text">John Doe</div>
-                                </div>
+                                <Col className="element" style={{marginBottom:'20px'}}>
+                                <img src={ require('./images/Menu/burgers/'+data.map(function(meal){ return (meal.cat==="burger" && meal.number===4) ? `${meal.name + meal.number}`: ''}).filter(function(meal){return(meal!=='')})+'.jpg') } alt=" not found" className="burger" />
+
+                                <span className="text middle" ><strong>{data.map(function(meal){ return (meal.cat==="burger" && meal.number===4) ? `${meal.name}`: ''}).filter(function(meal){return(meal!=='')})} </strong><br/> 
+                                {data.map(function(meal){ return (meal.cat==="dessert" && meal.number===4) ? `${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})}<br/> 
+                                {data.map(function(meal){ return (meal.cat==="dessert" && meal.number===4) ? `price: ${meal.price}`: ''}).filter(function(meal){return(meal!=='')})}
+                                </span>
+
+                                <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
+
+
+                                </Col>
+
+                                <Col className="element box" style={{marginBottom:'20px'}}>
+                                <img src={ require('./images/Menu/burgers/'+data.map(function(meal){ return (meal.cat==="burger" && meal.number===5) ? `${meal.name + meal.number}`: ''}).filter(function(meal){return(meal!=='')})+'.jpg') } alt=" not found" className="burger" />
+
+                                <span className="text middle" ><strong>{data.map(function(meal){ return (meal.cat==="burger" && meal.number===5) ? `${meal.name}`: ''}).filter(function(meal){return(meal!=='')})} </strong><br/> 
+                                {data.map(function(meal){ return (meal.cat==="burger" && meal.number===5) ? `${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})}<br/> 
+                                {data.map(function(meal){ return (meal.cat==="burger" && meal.number===5) ? `price: ${meal.price}`: ''}).filter(function(meal){return(meal!=='')})}
+                                </span>
+
+                                <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
+
                                 </Col>   
 
-                                <Col className="element" >
-                                <img src={ require('./images/Menu/pizzas/pizza6.jpg') } alt=" not found" className="burger" />
-                                <div className="middle">
-                                        <div className="text">John Doe</div>
-                                </div>
+                                <Col className="element" style={{marginBottom:'20px'}}>
+                                <img src={ require('./images/Menu/pizzas/'+data.map(function(meal){ return (meal.cat==="pizza" && meal.number===6) ? `${meal.name + meal.number}`: ''}).filter(function(meal){return(meal!=='')})+'.jpg') } alt=" not found" className="burger" />
+
+                                <span className="text middle" ><strong>{data.map(function(meal){ return (meal.cat==="pizza" && meal.number===6) ? `${meal.name}`: ''}).filter(function(meal){return(meal!=='')})} </strong><br/> 
+                                {data.map(function(meal){ return (meal.cat==="pizza" && meal.number===6) ? `${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})}<br/> 
+                                {data.map(function(meal){ return (meal.cat==="pizza" && meal.number===6) ? `price: ${meal.price}`: ''}).filter(function(meal){return(meal!=='')})}
+                                </span>
+
+                                <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
+
                                 </Col>
 
                         </Row>

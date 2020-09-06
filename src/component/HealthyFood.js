@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import DisplayComp from './DisplayComp';
-
+import data from '../data.json'
 
 function HealthyFood() {
 
-    const salads = [ "salad1", "salad2", "salad3", "salad4", "salad5", "salad6", "salad7", "salad8"];
 
+    const salads= data.map(function(meal){ return meal.cat==="salad" ? `${meal.cat+meal.number} ${meal.name} ${meal.price} ${meal.descp}`: ''}).filter(function(meal){return(meal!=='')})
     return (
         <div>
             <div style={{height:'70px'}}>Healthy Food Page</div>

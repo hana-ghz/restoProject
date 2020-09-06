@@ -30,18 +30,17 @@ function DisplayComp(props) {
     }
 
     const foodsDisplay= foods.slice(0, nb).map((food , index) =>{
-        
+
         return(
            
              <Col className="element "  key= {index}>
-                    <div style={{height:'300px' }}>
 
-                    <img src={ require(`./images/Menu/${category}/${food}.jpg`) } alt=" not found" className="burger" />
-                     <span id="spanMenu" className="text middle">John Doe</span>
-                     <p id="foodDescrip">
-                         place holder -   placeholder -  place holder -  place holder - 
-                         place holder 
-                     </p>
+                    <div style={{textAlign:'center', marginBottom:'20px' }}>
+
+                    <img src={ require(`./images/Menu/${category}/${food.split(" ")[0]}.jpg`) } alt=" not found" className="burger" />
+                     <span className="text middle" ><strong> {food.split(" ")[1]} </strong>  <br/> {food.substring(food.split(" ")[0].length+food.split(" ")[1].length+food.split(" ")[2].length+3,food.length)} <br/> price: {food.split(" ")[2]}</span>
+                     
+                     <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
 
                     </div>
                      
@@ -71,6 +70,7 @@ function DisplayComp(props) {
 }
 
 const styleBtn={
+    marginTop:'10px',
     backgroundColor:'#146CA3',
      border:'0px',
      marginLeft:'47%'
