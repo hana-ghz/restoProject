@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/restoProject/static/css/main.f0b58054.chunk.css",
-    "main.js": "/restoProject/static/js/main.414ddd82.chunk.js",
-    "main.js.map": "/restoProject/static/js/main.414ddd82.chunk.js.map",
+    "main.css": "/restoProject/static/css/main.7dc42506.chunk.css",
+    "main.js": "/restoProject/static/js/main.3742a98f.chunk.js",
+    "main.js.map": "/restoProject/static/js/main.3742a98f.chunk.js.map",
     "runtime-main.js": "/restoProject/static/js/runtime-main.604b649b.js",
     "runtime-main.js.map": "/restoProject/static/js/runtime-main.604b649b.js.map",
     "static/css/2.8cd54ee5.chunk.css": "/restoProject/static/css/2.8cd54ee5.chunk.css",
-    "static/js/2.fee9ab47.chunk.js": "/restoProject/static/js/2.fee9ab47.chunk.js",
-    "static/js/2.fee9ab47.chunk.js.map": "/restoProject/static/js/2.fee9ab47.chunk.js.map",
+    "static/js/2.ea0cad07.chunk.js": "/restoProject/static/js/2.ea0cad07.chunk.js",
+    "static/js/2.ea0cad07.chunk.js.map": "/restoProject/static/js/2.ea0cad07.chunk.js.map",
     "index.html": "/restoProject/index.html",
-    "precache-manifest.0fd654743a68d7dad3343be7daa450fe.js": "/restoProject/precache-manifest.0fd654743a68d7dad3343be7daa450fe.js",
+    "precache-manifest.00983daa07abee3686e4c9ba24996ac6.js": "/restoProject/precache-manifest.00983daa07abee3686e4c9ba24996ac6.js",
     "service-worker.js": "/restoProject/service-worker.js",
     "static/css/2.8cd54ee5.chunk.css.map": "/restoProject/static/css/2.8cd54ee5.chunk.css.map",
-    "static/css/main.f0b58054.chunk.css.map": "/restoProject/static/css/main.f0b58054.chunk.css.map",
-    "static/js/2.fee9ab47.chunk.js.LICENSE.txt": "/restoProject/static/js/2.fee9ab47.chunk.js.LICENSE.txt",
+    "static/css/main.7dc42506.chunk.css.map": "/restoProject/static/css/main.7dc42506.chunk.css.map",
+    "static/js/2.ea0cad07.chunk.js.LICENSE.txt": "/restoProject/static/js/2.ea0cad07.chunk.js.LICENSE.txt",
     "static/media/abc.jpg": "/restoProject/static/media/abc.38bf3d86.jpg",
     "static/media/background1.jpg": "/restoProject/static/media/background1.d9a10890.jpg",
     "static/media/background10.jpg": "/restoProject/static/media/background10.56f58413.jpg",
@@ -25,7 +25,6 @@
     "static/media/background7.jpg": "/restoProject/static/media/background7.284809d7.jpg",
     "static/media/background8.jpg": "/restoProject/static/media/background8.c974658b.jpg",
     "static/media/background9.jpg": "/restoProject/static/media/background9.dd4567b4.jpg",
-    "static/media/bruger0.jpg": "/restoProject/static/media/bruger0.948b0e0b.jpg",
     "static/media/build2.jpg": "/restoProject/static/media/build2.05e8305a.jpg",
     "static/media/burger.png": "/restoProject/static/media/burger.fdb953e7.png",
     "static/media/burger1.jpg": "/restoProject/static/media/burger1.c4a7c163.jpg",
@@ -38,6 +37,7 @@
     "static/media/burger7.jpg": "/restoProject/static/media/burger7.a0187e42.jpg",
     "static/media/burger8.jpg": "/restoProject/static/media/burger8.1222a4cf.jpg",
     "static/media/burger9.jpg": "/restoProject/static/media/burger9.343332d6.jpg",
+    "static/media/chariot.png": "/restoProject/static/media/chariot.c0484e32.png",
     "static/media/coca.jpg": "/restoProject/static/media/coca.432b8dd6.jpg",
     "static/media/contest1.jpg": "/restoProject/static/media/contest1.f7aaf55c.jpg",
     "static/media/dessert1.jpg": "/restoProject/static/media/dessert1.1e1f2dd1.jpg",
@@ -86,8 +86,8 @@
   "entrypoints": [
     "static/js/runtime-main.604b649b.js",
     "static/css/2.8cd54ee5.chunk.css",
-    "static/js/2.fee9ab47.chunk.js",
-    "static/css/main.f0b58054.chunk.css",
-    "static/js/main.414ddd82.chunk.js"
+    "static/js/2.ea0cad07.chunk.js",
+    "static/css/main.7dc42506.chunk.css",
+    "static/js/main.3742a98f.chunk.js"
   ]
 }
