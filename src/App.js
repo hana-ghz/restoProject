@@ -14,7 +14,7 @@ import OurMap from './component/OurMap';
 import About from './component/About';
 import Menu from './component/Menu';
 import pizzaOffer from './component/pizzaOffer';
-
+import Cart from './component/Cart';
 
 function App() {
   return (
@@ -34,6 +34,8 @@ function App() {
         <Route path="/About" exact component={About}/>
         <Route path="/Menu" exact component= {Menu}/>
         <Route path="/pizzaOffer" exact component= {pizzaOffer}/>
+        <Route path="/Cart" exact component= {Cart}/>
+
       </Switch>
       
       <Footer2/> 

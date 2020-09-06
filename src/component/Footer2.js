@@ -71,7 +71,9 @@ function Footer2() {
 }
 const footerStyle={
     height: '220px',
-    marginTop: '-220px'
+    marginTop: '-220px',
+    position:'relative' , 
+    bootom : '0px'
 
 }
 export default Footer2
