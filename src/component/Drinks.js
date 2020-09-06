@@ -12,8 +12,7 @@ function Drinks() {
                        
                  </Col>
                  <Col xs={6} md={5} style={{padding:'0'}}>
-                       <img src={ require('./images/coca.jpg') } alt=" not found" className="drink_img" />
-                 </Col>
+                 <Link to='/Menu'><img src={ require('./images/coca.jpg') } alt=" not found" className="drink_img"/></Link>                 </Col>
            </Row>
 
        </Container>

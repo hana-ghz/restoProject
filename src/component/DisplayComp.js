@@ -34,7 +34,7 @@ function DisplayComp(props) {
         return(
            
              <Col className="element "  key= {index}>
-                    <div style={{height:'250px' }}>
+                    <div style={{height:'300px' }}>
 
                     <img src={ require(`./images/Menu/${category}/${food}.jpg`) } alt=" not found" className="burger" />
                      <span id="spanMenu" className="text middle">John Doe</span>
@@ -72,7 +72,8 @@ function DisplayComp(props) {
 
 const styleBtn={
     backgroundColor:'#146CA3',
-     border:'0px'
+     border:'0px',
+     marginLeft:'47%'
   }
   
   

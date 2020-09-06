@@ -9,7 +9,7 @@ import {Map,TileLayer, Marker, Popup} from 'react-leaflet';
 
 function OurMap() {
     
-
+    
     const [position, setPosition]= useState({ lat:36.82145516982224, lng:10.173152759645232});
 
     const [zoom , setZoom]= useState(11);
@@ -18,8 +18,8 @@ function OurMap() {
     const position3= [36.77035154768671,10.23157027867596];
     const [larg, setLarg]=useState(0)
     const [long, setLong]=useState(0)
-    const [checked, setChecked] = useState(false);
     const [haveLocation,setHaveLocation]= useState(false);
+    const [ask,setAsk]= useState(false);
 
     const myIcon= L.icon({
         iconUrl: require('./images/burger.png') ,
@@ -40,18 +40,12 @@ function OurMap() {
             setLong(position.coords.longitude);
             console.log(position.coords.latitude, position.coords.longitude);
             setHaveLocation(true);
-          });
-    },[])
-
-    function CheckTheBox(){
-        return(
-            haveLocation ? setChecked(!checked) : (alert('Your have to allow the location detection to use this option, reload the page') )
-        )
-     }
+        },alert("You have to allow location detection to use detect position option"));
+    },[ask])
 
     return (
         <div>
-            <div style={{height:'60px'}}></div>
+            <div style={{height:'70px'}}></div>
 
             <h1 className="map_header">Where can you find us?</h1>
 
@@ -100,20 +94,17 @@ function OurMap() {
                                 <Col className="element" lg={4}>
                                     <h3 className="map_h">Find your position:</h3>
                                     <br></br>
-                                    <Form >
+                                    <Form style={{textAlign:'center'}}>
                                         <Form.Group controlId="fromControl">
                                             
-                                            <Form.Group controlId="formBasicCheckbox">
-                                            <Form.Check type="checkbox" label="Detect my position" checked={checked} onChange={CheckTheBox} />
-                                            </Form.Group>
                                             <Form.Text className="text-muted">
                                             We'll never share your position with anyone else.
                                             </Form.Text>
                                         </Form.Group>
 
                                                                             
-                                        <Button onClick={()=> (checked) ? ( setPosition({lat: larg, lng:long }) ,setZoom(14)) : '' } variant="primary">
-                                            Submit
+                                        <Button onClick={()=> (haveLocation) ? ( setPosition({lat: larg, lng:long }) ,setZoom(15)) :  setAsk(!ask) } variant="primary" >
+                                            Detect my position
                                         </Button>
                                     </Form>
                                 </Col>
