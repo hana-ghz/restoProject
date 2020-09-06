@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './ContestFrom.css';
 import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 
 function ContestForm() {
+
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+
     return (
         <div >
             <div style={{height:'60px'}}></div>
@@ -28,12 +33,12 @@ function ContestForm() {
                             <Form>
                             <Form.Group controlId="formControl" style={{backgroundColor:'#eaeded', opacity:'0.9' ,paddingBottom:'0', padding:'2px', borderRadius:'8px'}}>
                                 <Form.Label>Name</Form.Label>
-                                <Form.Control type="text" placeholder="Enter your name" />
+                                <Form.Control type="text" placeholder="Enter your name" onChange={e => setName(e.target.value)} />
                             </Form.Group>
 
                             <Form.Group controlId="formBasicEmail"  style={{backgroundColor:'#eaeded', opacity:'0.9' , padding:'2px', paddingBottom:'0', borderRadius:'8px'}}>
                                 <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Control type="email" placeholder="Enter email" onChange={e=> setEmail(e.target.value)} />
                                 <Form.Text className="text-muted">
                                 We'll never share your email with anyone else.
                                 </Form.Text>

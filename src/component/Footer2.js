@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer2.css';
+import {Link} from 'react-router-dom'
 
 function Footer2() {
     const logo= require('./images/logo4.png')
@@ -9,18 +10,22 @@ function Footer2() {
                 <div className="row" style={{width:"100%"}}>
                     <div className="col-md-4 col-sm-12 display ">
                         <img src={logo} id="logoFooter" alt="the logo"></img>
+
+                        <Link to="/About" style={{textDecoration:'none'}}> 
                         <h4 className="h4Footer"> About us</h4>
                         <p className="pFooter"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                            </p>
+                        </Link>
+
                     </div>
                     <hr/>
                     <div  className="col-md-4 col-sm-12 display">
                         <h3 className="h3Footer"> Quick links</h3>
                             <ul>
-                                <li className="elFooter"> <a href="/Menu">Our Menu</a> </li>
-                                <li className="elFooter"> <a href="#">Drinks</a></li>
-                                <li className="elFooter"> <a href="#">Desserts</a></li>
+                                <li className="elFooter"> <Link to="/Menu">Our Menu</Link> </li>
+                                <li className="elFooter"> <Link to="/Menu">Drinks</Link></li>
+                                <li className="elFooter"> <Link to="/Menu">Desserts</Link></li>
                             </ul>
                     </div>
                     <hr/>
@@ -43,9 +48,15 @@ function Footer2() {
                                     <span className="spanFooter">resto123@gmail.com</span>
                                 </li>
                                 <li className="elFooter">
+                                    <a href="https://www.facebook.com/sofiene.chihy/" target="_blank">
                                     <img src={require('./images/facebook.png')} alt="facebook" className="footer-sm"></img>
+                                    </a>
+                                    <a href="https://www.instagram.com/?hl=fr" target="_blank">
                                     <img src={require('./images/insta.png')} alt="insta" className="footer-sm"></img>
+                                    </a>
+                                    <a href="https://twitter.com/?lang=fr" target="_blank">
                                     <img src={require('./images/twitter.png')} alt="twitter" className="footer-sm"></img>
+                                    </a>
 
                                 </li>
                             </ul>
