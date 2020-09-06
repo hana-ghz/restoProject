@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import {BrowserRouter as Router , Switch , Route } from 'react-router-dom'
+import {HashRouter as Router , Switch , Route } from 'react-router-dom'
 
 import Home from './component/Home';
 import Nav2 from './component/Nav2';
@@ -14,12 +14,12 @@ import OurMap from './component/OurMap';
 import About from './component/About';
 import Menu from './component/Menu';
 import pizzaOffer from './component/pizzaOffer';
-
+import Cart from './component/Cart';
 
 function App() {
   return (
 
-    <Router>
+    <Router basename="/">
     <div className="App">  
 
       <Nav2 />
@@ -34,8 +34,9 @@ function App() {
         <Route path="/About" exact component={About}/>
         <Route path="/Menu" exact component= {Menu}/>
         <Route path="/pizzaOffer" exact component= {pizzaOffer}/>
+        <Route path="/Cart" exact component= {Cart}/>
+
       </Switch>
-      
       
       <Footer2/> 
       

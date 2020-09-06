@@ -1,0 +1,55 @@
+#titleCart{
+    text-align:center;
+    color:#ffbb33;
+    
+    
+}
+
+#toMenu{
+    font-size:  0.6em;
+    color:black
+}
+
+
+.table-fixed{
+    max-height:350px;
+    overflow: auto;
+    padding-bottom: 15px;
+    margin-bottom:30px;
+    border: 1px solid lightgray;
+
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+.table-fixed thead th{
+  position: sticky;
+  top:-1px;
+  color: #dc3545;
+  text-decoration:underline;
+}vw
+.table-fixed thead{
+    background-color:#ffbb33 ;
+    border-bottom: 3px solid #FF7729;
+}
+
+.inputTable{
+    width: 9vw
+}
+
+.NumericInput{
+    width:9vw
+}
+@media (min-width: 768px){
+    .NumericInput {
+        -moz-appearance: textfield;
+      }
+      .NumericInput::-webkit-inner-spin-button, 
+      .NumericInput::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+}

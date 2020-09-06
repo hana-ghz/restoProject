@@ -61,16 +61,6 @@ function SliderComp() {
     )
 }
 
-// const  joinBtn={
-//     position: "absolute",
-//      right:"30px",
-//      bottom: "0px",
-//     fontWeight:"bold",
-//     borderRadius:"0",
-//     color:"white",
-//     backgroundColor:"primary",
-//     textDecoration :"none"
-//   }
 
 
 export default SliderComp

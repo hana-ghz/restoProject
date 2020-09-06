@@ -2,7 +2,6 @@ import React  from 'react'
 import {  Container } from 'react-bootstrap';
 import DisplayComp from './DisplayComp';
 
-
 import '../App.css'
 
 function Menu() {
@@ -28,7 +27,6 @@ function Menu() {
 
 
             </Container>
-            <div style={{height:'200px'}}></div>
      
         </div>
     )
@@ -41,7 +39,7 @@ function Menu() {
 }
 
  const h1Style={
-    marginTop:'35px',
+   
 
     fontFamily: 'Oxygen , sansSerif'
  }

@@ -51,7 +51,7 @@ function OurMap() {
 
     return (
         <div>
-            <div style={{height:'68px'}}></div>
+            <div style={{height:'60px'}}></div>
 
             <h1 className="map_header">Where can you find us?</h1>
 

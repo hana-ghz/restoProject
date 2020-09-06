@@ -34,7 +34,7 @@ function DisplayComp(props) {
         return(
            
              <Col className="element "  key= {index}>
-                    <div style={{height:'300px' }}>
+                    <div style={{height:'250px' }}>
 
                     <img src={ require(`./images/Menu/${category}/${food}.jpg`) } alt=" not found" className="burger" />
                      <span id="spanMenu" className="text middle">John Doe</span>
@@ -45,18 +45,15 @@ function DisplayComp(props) {
 
                     </div>
                      
-                 
-                
              </Col>        
        )
-       
     })
 
     useEffect(() => {
        hide(lessRef)
     }, [])
 
-   
+    
     return(
     <React.Fragment>  
                 

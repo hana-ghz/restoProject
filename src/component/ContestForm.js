@@ -5,7 +5,7 @@ import {Container, Row, Col, Form, Button} from 'react-bootstrap';
 function ContestForm() {
     return (
         <div >
-            <div style={{height:'70px'}}></div>
+            <div style={{height:'60px'}}></div>
             <div className='the_contest'>
 
                 <Container fluid style={{ paddingTop:'10px', paddingBottom:'10px'}}>
