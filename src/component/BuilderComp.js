@@ -1,48 +1,57 @@
-import React, { useState} from 'react'
+import React, { useState, useEffect} from 'react'
 import {Card , ListGroup, ListGroupItem} from 'react-bootstrap';
 
 
 function BuilderComp(props) {
     const {data} = props ;
     const max=2;
-    let currentData =[false , false , false , false , false];
+    var currentData =[0 , 0 , 0 , 0 , 0];
 
-    const handleInputChange = (event ,i )=>{
+
+    const handleInputChange = (event ,ind )=>{
         console.log(event.currentTarget)
         let isSelected = event.currentTarget.checked;
         let count = currentData.reduce((n , el)=>n+(el === true) , 0)
         console.log("length "+ count)
         console.log(isSelected)
         if(isSelected){
-            if(count<max){
-               
-                currentData[i]=true
+            console.log(ind)
+                currentData[ind]--
                 console.log(currentData)
                 console.log(event.currentTarget.checked)
-            }
+            
+        } else if(currentData[ind]<max){
+            
+            event.currentTarget.checked=false
+            console.log(ind)
+            currentData[ind]++
+            console.log(currentData)
+            console.log(event.currentTarget.checked)
         }
        
     }
 
-    
 
 
     const display= data.map((categ, index) => {
 
         const itemsShow= categ.list.map(( item , i) =>{
-           
+           console.log("the index "+i)
+
             return <ListGroupItem>{item} 
                                <input id={i}
                                type="checkbox" name="check" style={checkBoxStyle}
-                               checked={currentData[i]}
-                               onChange={(e , i )=>{handleInputChange (e ,i)}}
+                               
+                               onChange={(e)=>{handleInputChange (e ,index)}}
+                               
+
                                /> 
                     </ListGroupItem>
         })
     
         return(
          <Card style={cardStyle} >
-            <Card.Img variant="top" src={require(`./images/Build/${categ.name}.jpg`) } style={cardImg} />
+            <Card.Img variant="top" src={require(`./images/Build/${categ.name}.jpg`) } style={cardImg}/>
             <Card.Body style={{height:'30px' , position: 'relative' , boxSizing:'border-box'}}> 
                 <Card.Title style={cardTitle}> {categ.name}</Card.Title>
             </Card.Body>

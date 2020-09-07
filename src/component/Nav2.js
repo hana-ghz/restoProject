@@ -37,7 +37,7 @@ function Nav2() {
     <Nav className="ml-auto">  
        <React.Fragment >    
             
-            <Link href="/" className="text-warning" style={{marginRight:'15px', marginLeft:'0px' ,paddingLeft:'0px',fontSize:'20px',}} ><svg width="30px" height="30px" viewBox="0 0 16 16" className="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" href="#">
+            <Link to="/" className="text-warning" style={{marginRight:'15px', marginLeft:'0px' ,paddingLeft:'0px',fontSize:'23px',textDecoration:'none'}} ><svg width="30px" height="30px" viewBox="0 0 16 16" className="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg" href="#">
   <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
   <path fillRule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
         </svg>&#9;Home</Link>
@@ -53,6 +53,13 @@ function Nav2() {
 </svg>&#9;Menu</Link>
           </React.Fragment>
 
+          <React.Fragment >    
+            
+            <Link to="/Cart" className="text-warning" style={{marginRight:'15px', marginLeft:'0px' ,paddingLeft:'0px',fontSize:'23px',textDecoration:'none'}} ><svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-cart4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+</svg>&#9;Cart</Link>
+
+       </React.Fragment>
 
         <React.Fragment >
 
