@@ -25,7 +25,9 @@ function Menu() {
 
 
     return (
+        
         <div style={{backgroundImage: `url(${require("./images/Menu/background10.jpg")})`  }}>
+            <div style={{height:'70px'}}></div>
             <h1 style={title}> Menu </h1>
             <Container fluid style={{ paddingTop:'10px', paddingBottom:'10px', borderRadius:'8px' ,}}>
                 <h1 style={h1Style}>Our Burgers</h1>
@@ -54,7 +56,7 @@ function Menu() {
  const title={
     fontSize:'15.5vw',
     textAlign:'center',
-    paddingTop:'50px',color:' #EB6353',
+    color:' #EB6353',
 }
 
  const h1Style={

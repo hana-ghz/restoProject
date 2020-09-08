@@ -12,13 +12,13 @@ function BuildBurger() {
             "name":"buns",
             "list":["Regular Bread" ,"whole wheat bread" ,"Gluten free bread" ],
             "number":1,
-            "price":2000
+            "price":1000
         } ,
         {
             "name":"protein",
             "list":["Beef" ,"Chicken Breast" ,"Black Beans" ],
-            "number":1,
-            "price":3000
+            "number":2,
+            "price":2500
         } ,
         {
             "name":"cheese",

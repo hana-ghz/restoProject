@@ -5,8 +5,6 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet'
 import {Map,TileLayer, Marker, Popup} from 'react-leaflet';
 
-
-
 function OurMap() {
     
     
@@ -19,7 +17,8 @@ function OurMap() {
     const [larg, setLarg]=useState(0)
     const [long, setLong]=useState(0)
     const [haveLocation,setHaveLocation]= useState(false);
-    const [error,setError]= useState("");
+    const [error,setError]= useState(" ");
+    const [again , setAgain]= useState(false)
 
     const myIcon= L.icon({
         iconUrl: require('./images/burger.png') ,
@@ -37,12 +36,13 @@ function OurMap() {
     useEffect(() => {
 
         navigator.geolocation.getCurrentPosition(function(position) {
+            setError("Click again to update")
+            setHaveLocation(true);
             setLarg(position.coords.latitude);
             setLong(position.coords.longitude);
             console.log(position.coords.latitude, position.coords.longitude);
-            setHaveLocation(true);
         });
-    },[error])
+    },[again])
 
     return (
         <div>
@@ -60,7 +60,6 @@ function OurMap() {
                                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                         />
                                                                                 
-
                                         <Marker position={position}
                                             icon = {myIcon1} >
                                         <Popup>
@@ -104,10 +103,10 @@ function OurMap() {
                                         </Form.Group>
 
                                                                             
-                                        <Button onClick={()=> (haveLocation) ? ( setPosition({lat: larg, lng:long }) ,setZoom(15),setError(""))  :  setError("you have to to allow location to use this option") } variant="primary" >
+                                        <Button onClick={()=> (haveLocation) ? ( setPosition({lat: larg, lng:long }) ,setZoom(15), setAgain(!again))  : (setError("you have to to allow location to use this option"),setAgain(!again)) } variant="primary" >
                                             Detect my position
                                         </Button>
-                                        <h5  style={{color:'red',marginTop:'10px'}}>{error}</h5>
+                                        <h5  style={{color:'green',marginTop:'10px'}}>{error}</h5>
                                     </Form>
                                 </Col>
 
