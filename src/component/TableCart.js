@@ -9,7 +9,7 @@ function TableCart() {
     useEffect(() => {
         setmeals(data)
     }, [])
-    const orders= meals.map(function(meal){ return meal.test===true ? `${meal.name} ${meal.number} ${meal.price} ${meal.cat}`: ''}).filter(function(meal){return(meal!=='')})
+    const orders= meals.map(function(meal){ return meal.test===true ? `${meal.cat} ${meal.number} ${meal.price} ${meal.cat}`: ''}).filter(function(meal){return(meal!=='')})
 
     // const sendCommand = (order)=>{
     //     let cat= order.split(" ")[3]
@@ -34,7 +34,6 @@ function TableCart() {
 
     const  ordersDisplay= orders.map((order)=> {
 
-       
         return(
             <tr>
             <td>
@@ -58,11 +57,10 @@ function TableCart() {
         )
     })
     return (
-        <Table className="table ">
+        <Table striped bordered hover variant="warning">
         <thead>
             <tr>
                 <th>
-                   
                 </th>
                 <th>Product</th>
                 <th>Price</th>

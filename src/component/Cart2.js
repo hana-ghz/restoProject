@@ -1,10 +1,20 @@
 import React from 'react'
-import { Col , Form , Button  } from 'react-bootstrap';
+import TableCart from './TableCart'
+import CardCart from './CardCart';
+import {Row , Col, Container, Button, Form } from 'react-bootstrap';
+
+function Cart2() {
 
 
-function FormCart() {
+
     return (
-        <Form >
+        <div >
+            
+        <Row style={{marginTop:'30px'}} xs={1} md={1} lg={2} >
+            <Col className="element" lg={6} style={{marginBottom:'20px'}}>
+                <h3 style={{textAlign:'center', marginBottom:'20px'}}>Fill this form </h3>
+
+                <Form >
                 <Form.Group controlId="formGridAddress1">
                     <Form.Row>
                         <Col>
@@ -22,11 +32,6 @@ function FormCart() {
                     <Form.Control placeholder="1234 Main St" />
                 </Form.Group>
 
-                <Form.Group controlId="formGridAddress2">
-                    <Form.Label>Address 2</Form.Label>
-                    <Form.Control placeholder="Apartment, studio, or floor" />
-                </Form.Group>
-
                 <Form.Group controlId="formGroupEmail">
                       <Form.Label>Phone</Form.Label>
                       <Form.Control type="phone" placeholder="Enter phone" />
@@ -39,7 +44,22 @@ function FormCart() {
                         Submit
                 </Button>            
             </Form>
+
+            </Col>
+           
+            <Col className="element" lg={6} >
+                <div className="table-fixed">
+                    <TableCart/>
+                </div>
+                <CardCart/>
+            </Col>
+
+            
+
+        </Row>
+
+        </div>
     )
 }
 
-export default FormCart
+export default Cart2

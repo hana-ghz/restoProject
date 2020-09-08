@@ -4,10 +4,10 @@ import {Table , Card } from 'react-bootstrap';
 
 function CardCart() {
     return (
-        <Card style={{ width: '18rem'  , position:'relative'}}>
+        <Card style={{ width: '100%' ,marginBottom:'20px' }}>
              <Card.Body style={cardBody} id="cardBody">
-                    <Card.Title>The Bill</Card.Title>
-                   <Table style={cardTable}  id="cardTable">
+                    <Card.Title style={{textAlign:'center', fontWeight:'bold',fontSize:'25px'}}>The Bill</Card.Title>
+                   <Table  striped bordered hover size="md" style={{marginBottom:'0'}}>
                        <tbody>
                         <tr>
                             <td  className="rowTitle">Subtotal</td>
@@ -41,12 +41,5 @@ const  cardBody= {
     positon:'absolute' , bottom: '0'
 
 }
-const cardTable ={
-   
-        width: '100%',
-        position: 'relative',
-        bottom:'0px',
-    
-}
-    
+
 export default CardCart

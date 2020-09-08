@@ -1,41 +1,39 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import './Cart.css';
-import {Row , Col } from 'react-bootstrap';
-import FormCart from './FormCart'
-import TableCart from './TableCart'
-import CardCart from './CardCart';
+import {Button, Container } from 'react-bootstrap';
+import Cart1 from "./Cart1"
+import Cart2 from "./Cart2"
 
 
 
 function Cart() {
 
-    return (
-        <>
-        <div >
-            <div style={{height:'100px'}}></div>
-            <h1 id="titleCart">Your cart is empty.<a href="/Menu" id="toMenu">pick something you enjoy</a> </h1>
-        </div>
-        <div style={{clear:'both'}}></div>
-        <Row style={{margin:'0px',padding:'0px'}} xs={1} md={1} lg={2} >
-            <Col className="element" lg={6} >
-                <FormCart/>
-            </Col>
-           
-           
-           
-            <Col className="element" lg={6} >
-                <div className="table-fixed">
-                    <TableCart/>
-                </div>
-          
-                <CardCart/>
-            </Col>
-        </Row>
 
+    const [haveItems,setHaveItems]= useState("DONT HAVE ITEMS")
+        
+        return (
 
-        <div style={{height:'500px'}}></div>
-
-        </>
+            haveItems=== "HAVE ITEMS" ? (
+            
+                <>
+                <div style={{height:'70px'}}></div>
+    
+                <Button onClick={()=> haveItems==="HAVE ITEMS" ? setHaveItems("DONT HAVE ITEMS") : setHaveItems("HAVE ITEMS")}>{haveItems}</Button>
+                <Cart1 />)
+                </>
+                
+                )    
+            
+            : (
+            
+                <Container style={{backgroundColor:'#eaeded'}}>
+            <div style={{height:'70px'}}></div>
+             <h1 className="cart2-header">Here's your cart </h1>
+            <Cart2 />
+            </Container>
+    
+            )
+     
     )
 }
 

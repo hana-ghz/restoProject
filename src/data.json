@@ -5,8 +5,7 @@
       "cat": "burger",
       "number": 1,
       "price":0,
- 
-    "test":true},
+      "test":true},
     {
         "name": "burger",
         "cat": "burger",

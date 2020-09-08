@@ -1,66 +1,45 @@
-#titleCart{
-    text-align:center;
-    color:#ffbb33;
-    
-    
-}
-
-
 
 #toMenu{
-    font-size:  0.6em;
-    color:black
+    font-size:  50px;
+    color:#ffbb33 ;
+    padding : 10px;
+    background-color:#eaeded;
+    border-radius:8px
 }
 
+.cart2-header{
+
+    background-color: #ffbb33;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+    
+}
 
 .table-fixed{
-    max-height:350px;
-    overflow: auto;
-    padding-bottom: 15px;
+
+    margin-top: 50px;
     margin-bottom:30px;
-    border: 1px solid lightgray;
-
 
 }
-table{
-    border-collapse: collapse;
-    width: 100%;
 
-}
-.table-fixed thead th{
-  position: sticky;
-  top:-1px;
+.table-fixed thead th{  
   color: #dc3545;
   text-decoration:underline;
-  background-color:#ffbb33 ;
-  border-bottom: 3px solid #FF7729;
+
 }
 
 
-.inputTable{
-    width: 9vw
+.rowTitle{
+    text-align: center;
+    font-weight: bold;
 }
-
 
 .NumericInput{
-    width:4vw
-}
-
-#cardTable{
-    width: 100%;
-    position: relative;
-    bottom:0px;
+    width:70px;
 }
 
 
-tr  .rowTitle{
-    background-color: red;
 
-}
-
-
-@media(max-width:767px){
-    .NumericInput{
-        width:10vw
-    }
-}
