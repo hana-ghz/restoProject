@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd0339f26b276475b303fb271cc7f08b",
+    "revision": "497df609e8287b2f1049b990f7bf371c",
     "url": "/restoProject/index.html"
   },
   {
-    "revision": "00238856a5f2d8b4c8e5",
+    "revision": "62bb8b00f738d57e461c",
     "url": "/restoProject/static/css/2.8cd54ee5.chunk.css"
   },
   {
-    "revision": "333fabbe3e89d7ad141d",
-    "url": "/restoProject/static/css/main.7dc42506.chunk.css"
+    "revision": "155480644eebd4101897",
+    "url": "/restoProject/static/css/main.a116ab2e.chunk.css"
   },
   {
-    "revision": "00238856a5f2d8b4c8e5",
-    "url": "/restoProject/static/js/2.ea0cad07.chunk.js"
+    "revision": "62bb8b00f738d57e461c",
+    "url": "/restoProject/static/js/2.c11e7697.chunk.js"
   },
   {
     "revision": "6791e7fb9584d65ed87d655035c7da95",
-    "url": "/restoProject/static/js/2.ea0cad07.chunk.js.LICENSE.txt"
+    "url": "/restoProject/static/js/2.c11e7697.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "333fabbe3e89d7ad141d",
-    "url": "/restoProject/static/js/main.bc402b67.chunk.js"
+    "revision": "155480644eebd4101897",
+    "url": "/restoProject/static/js/main.162b106e.chunk.js"
   },
   {
     "revision": "6f0df57125c026d7a6e0",
@@ -72,8 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restoProject/static/media/background9.dd4567b4.jpg"
   },
   {
+    "revision": "c1f81ac75c23d47d47b9c47ec62e10a8",
+    "url": "/restoProject/static/media/build.c1f81ac7.jpg"
+  },
+  {
+    "revision": "989af6c217ef0ce843c59c25ad39ef54",
+    "url": "/restoProject/static/media/build1.989af6c2.jpg"
+  },
+  {
     "revision": "05e8305a6e92e2a897efbacebc969a81",
     "url": "/restoProject/static/media/build2.05e8305a.jpg"
+  },
+  {
+    "revision": "609c948b03a4bd41f89e53ad584b1d3e",
+    "url": "/restoProject/static/media/buns.609c948b.jpg"
   },
   {
     "revision": "fdb953e747052b088eda7e2d8bc116b9",
@@ -122,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c0484e32b5bf7bc8330b4134cd3ec852",
     "url": "/restoProject/static/media/chariot.c0484e32.png"
+  },
+  {
+    "revision": "188dcdf49144c31788a90e664d3aa965",
+    "url": "/restoProject/static/media/cheese.188dcdf4.jpg"
   },
   {
     "revision": "432b8dd6fa6e0d38f4e88f5c27881080",
@@ -260,6 +276,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restoProject/static/media/pizzaOffer1.7a459a49.jpg"
   },
   {
+    "revision": "3d8df5444c280d20393df6128103fa1e",
+    "url": "/restoProject/static/media/protein.3d8df544.jpg"
+  },
+  {
     "revision": "e539000eb44a2639dd0463d7e278b8ef",
     "url": "/restoProject/static/media/restaurant.e539000e.jpg"
   },
@@ -296,7 +316,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restoProject/static/media/salad8.98a30c67.jpg"
   },
   {
+    "revision": "0c4c9f1ac7cb940d792a101015790f76",
+    "url": "/restoProject/static/media/sauces.0c4c9f1a.jpg"
+  },
+  {
     "revision": "8f35a40403a84631c4125c4f1859c7a6",
     "url": "/restoProject/static/media/twitter.8f35a404.png"
+  },
+  {
+    "revision": "6a8cb0dd1400716d66020f43a60ee32f",
+    "url": "/restoProject/static/media/veggies.6a8cb0dd.jpg"
   }
 ]);
