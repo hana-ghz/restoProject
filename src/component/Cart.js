@@ -19,7 +19,7 @@ function Cart() {
                 <div style={{height:'70px'}}></div>
     
                 <Button onClick={()=> haveItems==="HAVE ITEMS" ? setHaveItems("DONT HAVE ITEMS") : setHaveItems("HAVE ITEMS")}>{haveItems}</Button>
-                <Cart1 />)
+                <Cart1 />
                 </>
                 
                 )    
@@ -28,6 +28,7 @@ function Cart() {
             
                 <Container style={{backgroundColor:'#eaeded'}}>
             <div style={{height:'70px'}}></div>
+            <Button onClick={()=> haveItems==="HAVE ITEMS" ? setHaveItems("DONT HAVE ITEMS") : setHaveItems("HAVE ITEMS")}>{haveItems}</Button>
              <h1 className="cart2-header">Here's your cart </h1>
             <Cart2 />
             </Container>

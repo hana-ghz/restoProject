@@ -43,3 +43,10 @@
 
 
 
+@media(max-width:767px){
+
+    #toMenu{
+        font-size: 25px;
+    }
+
+}
