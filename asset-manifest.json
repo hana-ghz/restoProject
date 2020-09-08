@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/restoProject/static/css/main.a116ab2e.chunk.css",
-    "main.js": "/restoProject/static/js/main.c503732c.chunk.js",
-    "main.js.map": "/restoProject/static/js/main.c503732c.chunk.js.map",
+    "main.css": "/restoProject/static/css/main.febd1124.chunk.css",
+    "main.js": "/restoProject/static/js/main.ecadf62f.chunk.js",
+    "main.js.map": "/restoProject/static/js/main.ecadf62f.chunk.js.map",
     "runtime-main.js": "/restoProject/static/js/runtime-main.604b649b.js",
     "runtime-main.js.map": "/restoProject/static/js/runtime-main.604b649b.js.map",
-    "static/css/2.8cd54ee5.chunk.css": "/restoProject/static/css/2.8cd54ee5.chunk.css",
-    "static/js/2.f91a5797.chunk.js": "/restoProject/static/js/2.f91a5797.chunk.js",
-    "static/js/2.f91a5797.chunk.js.map": "/restoProject/static/js/2.f91a5797.chunk.js.map",
+    "static/css/2.7302b888.chunk.css": "/restoProject/static/css/2.7302b888.chunk.css",
+    "static/js/2.381e4846.chunk.js": "/restoProject/static/js/2.381e4846.chunk.js",
+    "static/js/2.381e4846.chunk.js.map": "/restoProject/static/js/2.381e4846.chunk.js.map",
     "index.html": "/restoProject/index.html",
-    "precache-manifest.4f3de3fb15e3ac798845c1125223c8ed.js": "/restoProject/precache-manifest.4f3de3fb15e3ac798845c1125223c8ed.js",
+    "precache-manifest.ffddef7592fbb0fa7a0b74fd9e9630e3.js": "/restoProject/precache-manifest.ffddef7592fbb0fa7a0b74fd9e9630e3.js",
     "service-worker.js": "/restoProject/service-worker.js",
-    "static/css/2.8cd54ee5.chunk.css.map": "/restoProject/static/css/2.8cd54ee5.chunk.css.map",
-    "static/css/main.a116ab2e.chunk.css.map": "/restoProject/static/css/main.a116ab2e.chunk.css.map",
-    "static/js/2.f91a5797.chunk.js.LICENSE.txt": "/restoProject/static/js/2.f91a5797.chunk.js.LICENSE.txt",
+    "static/css/2.7302b888.chunk.css.map": "/restoProject/static/css/2.7302b888.chunk.css.map",
+    "static/css/main.febd1124.chunk.css.map": "/restoProject/static/css/main.febd1124.chunk.css.map",
+    "static/js/2.381e4846.chunk.js.LICENSE.txt": "/restoProject/static/js/2.381e4846.chunk.js.LICENSE.txt",
     "static/media/abc.jpg": "/restoProject/static/media/abc.38bf3d86.jpg",
     "static/media/background1.jpg": "/restoProject/static/media/background1.d9a10890.jpg",
     "static/media/background10.jpg": "/restoProject/static/media/background10.56f58413.jpg",
@@ -56,6 +56,7 @@
     "static/media/drink5.jpg": "/restoProject/static/media/drink5.df33874a.jpg",
     "static/media/drink6.jpg": "/restoProject/static/media/drink6.04294cdb.jpg",
     "static/media/drink7.jpg": "/restoProject/static/media/drink7.8d92f9b2.jpg",
+    "static/media/emptyCart.png": "/restoProject/static/media/emptyCart.533423e1.png",
     "static/media/fast-food.png": "/restoProject/static/media/fast-food.061bd213.png",
     "static/media/healthyFoodImg1.jpg": "/restoProject/static/media/healthyFoodImg1.6914440a.jpg",
     "static/media/insta.png": "/restoProject/static/media/insta.8290266a.png",
@@ -92,9 +93,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.604b649b.js",
-    "static/css/2.8cd54ee5.chunk.css",
-    "static/js/2.f91a5797.chunk.js",
-    "static/css/main.a116ab2e.chunk.css",
-    "static/js/main.c503732c.chunk.js"
+    "static/css/2.7302b888.chunk.css",
+    "static/js/2.381e4846.chunk.js",
+    "static/css/main.febd1124.chunk.css",
+    "static/js/main.ecadf62f.chunk.js"
   ]
 }
