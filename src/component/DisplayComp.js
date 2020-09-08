@@ -28,9 +28,11 @@ function DisplayComp(props) {
         show(moreRef)
         hide(lessRef)
     }
+  
 
     const foodsDisplay= foods.slice(0, nb).map((food , index) =>{
-
+         
+       
         return(
            
              <Col className="element "  key= {index}>
@@ -40,7 +42,7 @@ function DisplayComp(props) {
                     <img src={ require(`./images/Menu/${category}/${food.split(" ")[0]}.jpg`) } alt=" not found" className="burger" />
                      <span className="text middle" ><strong> {food.split(" ")[1]} </strong>  <br/> {food.substring(food.split(" ")[0].length+food.split(" ")[1].length+food.split(" ")[2].length+3,food.length)} <br/> price: {food.split(" ")[2]}</span>
                      
-                     <Button variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
+                     <Button  variant="warning" style={{height:'40px'}}> <img src={require("./images/chariot.png")} alt="not found" style={{height:'30px', width:'30px'}}></img> Command</Button>
 
                     </div>
                      

@@ -5,6 +5,8 @@
     
 }
 
+
+
 #toMenu{
     font-size:  0.6em;
     color:black
@@ -30,26 +32,35 @@ table{
   top:-1px;
   color: #dc3545;
   text-decoration:underline;
-}vw
-.table-fixed thead{
-    background-color:#ffbb33 ;
-    border-bottom: 3px solid #FF7729;
+  background-color:#ffbb33 ;
+  border-bottom: 3px solid #FF7729;
 }
+
 
 .inputTable{
     width: 9vw
 }
 
+
 .NumericInput{
-    width:9vw
+    width:4vw
 }
-@media (min-width: 768px){
-    .NumericInput {
-        -moz-appearance: textfield;
-      }
-      .NumericInput::-webkit-inner-spin-button, 
-      .NumericInput::-webkit-outer-spin-button { 
-        -webkit-appearance: none; 
-        margin: 0; 
-      }
+
+#cardTable{
+    width: 100%;
+    position: relative;
+    bottom:0px;
+}
+
+
+tr  .rowTitle{
+    background-color: red;
+
+}
+
+
+@media(max-width:767px){
+    .NumericInput{
+        width:10vw
+    }
 }

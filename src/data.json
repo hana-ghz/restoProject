@@ -4,300 +4,343 @@
       "descp":"ki shit",
       "cat": "burger",
       "number": 1,
-      "price":0
-    },
+      "price":0,
+ 
+    "test":true},
     {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 2,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 3,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 4,
-        "price":0
+        "price":0,
+        "test":true
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 5,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 6,
-        "price":0
+        "price":0,
+        "test":true
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 7,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 8,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 9,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "burger",
         "cat": "burger",
         "descp":"ki shit",
         "number": 10,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "dessert",
         "cat": "dessert",
         "descp":"ki shit",
         "number": 1,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "dessert",
         "cat": "dessert",
         "descp":"ki shit",
         "number": 2,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "dessert",
         "cat": "dessert",
         "descp":"ki shit",
         "number": 3,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "dessert",
         "cat": "dessert",
         "descp":"ki shit",
         "number": 4,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "dessert",
         "cat": "dessert",
         "descp":"ki shit",
         "number": 5,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "descp":"ki shit",
         "number": 1,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "descp":"ki shit",
         "number": 2,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "descp":"ki shit",
         "number": 3,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "descp":"ki shit",
         "number": 4,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "number": 5,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "descp":"ki shit",
         "number": 6,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "descp":"ki shit",
         "number": 7,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "drink",
         "cat": "drink",
         "descp":"ki shit",
         "number": 8,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 1,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 2,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 3,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 4,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 5,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 6,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 7,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "number": 8,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "number": 9,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "descp":"ki shit",
         "number": 10,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "number": 11,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "pizza",
         "cat": "pizza",
         "number": 12,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "number": 1,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "number": 2,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "number": 3,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "descp":"ki shit",
         "number": 4,
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "number": 5,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "number": 6,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "number": 7,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       },
       {
         "name": "salad",
         "cat": "salad",
         "number": 8,
         "descp":"ki shit",
-        "price":0
+        "price":0,
+        "test":false
       }
 ]
