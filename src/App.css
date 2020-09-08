@@ -113,22 +113,20 @@ html, body, #root, .App {
 .sm-icon:hover{
   transform: translate(5px,0px);  
 
-
 }
 
 
 #buildPageImage{
   height:480px ;
   width: 100%;
-  padding-top:60px;
-
+  
 }
 #buildPageTitle{
-    font-size: 7vw;
+    
     text-align: center;
-    padding-top:30px;
-    color: #f0ad4e;
-    text-shadow: 5px solid black; 
+    padding-top:20px;
+    color: #DE9967;
+    
 
 }
   
@@ -161,6 +159,10 @@ html, body, #root, .App {
 
 }
 
+.ItemStyle:hover{
+
+  background-color: #eaeded;
+}
 
 
 @media(max-width: 767px){
@@ -182,10 +184,6 @@ html, body, #root, .App {
   #buildPageImage{
     height:300px;
    }
-}
 
-@media (max-width: 540px){
-  #buildPageImage{
-    height:200px;
-   }
+
 }
