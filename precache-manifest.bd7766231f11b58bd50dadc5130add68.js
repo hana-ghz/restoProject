@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26541239ad04b23ebd593af54ad888ce",
+    "revision": "d23517d7477c257807dde284e0d57069",
     "url": "/restoProject/index.html"
   },
   {
-    "revision": "ada54f2f7a953b726b3a",
+    "revision": "6b8ecb6e950dc43803c8",
     "url": "/restoProject/static/css/2.7302b888.chunk.css"
   },
   {
-    "revision": "5d4fa56398473733d69a",
-    "url": "/restoProject/static/css/main.ea91b6ad.chunk.css"
+    "revision": "7284be4b2b1b1267aa4c",
+    "url": "/restoProject/static/css/main.049c7f99.chunk.css"
   },
   {
-    "revision": "ada54f2f7a953b726b3a",
-    "url": "/restoProject/static/js/2.381e4846.chunk.js"
+    "revision": "6b8ecb6e950dc43803c8",
+    "url": "/restoProject/static/js/2.8a1837d8.chunk.js"
   },
   {
     "revision": "6791e7fb9584d65ed87d655035c7da95",
-    "url": "/restoProject/static/js/2.381e4846.chunk.js.LICENSE.txt"
+    "url": "/restoProject/static/js/2.8a1837d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d4fa56398473733d69a",
-    "url": "/restoProject/static/js/main.560a79df.chunk.js"
+    "revision": "7284be4b2b1b1267aa4c",
+    "url": "/restoProject/static/js/main.47e330c0.chunk.js"
   },
   {
     "revision": "6f0df57125c026d7a6e0",
@@ -198,10 +198,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "533423e1418dfd15cd7eaeece58fcfe0",
     "url": "/restoProject/static/media/emptyCart.533423e1.png"
-  },
-  {
-    "revision": "061bd213000bd1078b74c4f8a68c33e9",
-    "url": "/restoProject/static/media/fast-food.061bd213.png"
   },
   {
     "revision": "6914440a83e71cdab8b3e10a35f11d2d",

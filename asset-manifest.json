@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/restoProject/static/css/main.ea91b6ad.chunk.css",
-    "main.js": "/restoProject/static/js/main.560a79df.chunk.js",
-    "main.js.map": "/restoProject/static/js/main.560a79df.chunk.js.map",
+    "main.css": "/restoProject/static/css/main.049c7f99.chunk.css",
+    "main.js": "/restoProject/static/js/main.47e330c0.chunk.js",
+    "main.js.map": "/restoProject/static/js/main.47e330c0.chunk.js.map",
     "runtime-main.js": "/restoProject/static/js/runtime-main.604b649b.js",
     "runtime-main.js.map": "/restoProject/static/js/runtime-main.604b649b.js.map",
     "static/css/2.7302b888.chunk.css": "/restoProject/static/css/2.7302b888.chunk.css",
-    "static/js/2.381e4846.chunk.js": "/restoProject/static/js/2.381e4846.chunk.js",
-    "static/js/2.381e4846.chunk.js.map": "/restoProject/static/js/2.381e4846.chunk.js.map",
+    "static/js/2.8a1837d8.chunk.js": "/restoProject/static/js/2.8a1837d8.chunk.js",
+    "static/js/2.8a1837d8.chunk.js.map": "/restoProject/static/js/2.8a1837d8.chunk.js.map",
     "index.html": "/restoProject/index.html",
-    "precache-manifest.02eb30cc9f59ecdae54ed2a9a3a8c7ec.js": "/restoProject/precache-manifest.02eb30cc9f59ecdae54ed2a9a3a8c7ec.js",
+    "precache-manifest.bd7766231f11b58bd50dadc5130add68.js": "/restoProject/precache-manifest.bd7766231f11b58bd50dadc5130add68.js",
     "service-worker.js": "/restoProject/service-worker.js",
     "static/css/2.7302b888.chunk.css.map": "/restoProject/static/css/2.7302b888.chunk.css.map",
-    "static/css/main.ea91b6ad.chunk.css.map": "/restoProject/static/css/main.ea91b6ad.chunk.css.map",
-    "static/js/2.381e4846.chunk.js.LICENSE.txt": "/restoProject/static/js/2.381e4846.chunk.js.LICENSE.txt",
+    "static/css/main.049c7f99.chunk.css.map": "/restoProject/static/css/main.049c7f99.chunk.css.map",
+    "static/js/2.8a1837d8.chunk.js.LICENSE.txt": "/restoProject/static/js/2.8a1837d8.chunk.js.LICENSE.txt",
     "static/media/abc.jpg": "/restoProject/static/media/abc.38bf3d86.jpg",
     "static/media/background1.jpg": "/restoProject/static/media/background1.d9a10890.jpg",
     "static/media/background10.jpg": "/restoProject/static/media/background10.56f58413.jpg",
@@ -57,7 +57,6 @@
     "static/media/drink6.jpg": "/restoProject/static/media/drink6.04294cdb.jpg",
     "static/media/drink7.jpg": "/restoProject/static/media/drink7.8d92f9b2.jpg",
     "static/media/emptyCart.png": "/restoProject/static/media/emptyCart.533423e1.png",
-    "static/media/fast-food.png": "/restoProject/static/media/fast-food.061bd213.png",
     "static/media/healthyFoodImg1.jpg": "/restoProject/static/media/healthyFoodImg1.6914440a.jpg",
     "static/media/insta.png": "/restoProject/static/media/insta.8290266a.png",
     "static/media/logo4.png": "/restoProject/static/media/logo4.f69d7476.png",
@@ -94,8 +93,8 @@
   "entrypoints": [
     "static/js/runtime-main.604b649b.js",
     "static/css/2.7302b888.chunk.css",
-    "static/js/2.381e4846.chunk.js",
-    "static/css/main.ea91b6ad.chunk.css",
-    "static/js/main.560a79df.chunk.js"
+    "static/js/2.8a1837d8.chunk.js",
+    "static/css/main.049c7f99.chunk.css",
+    "static/js/main.47e330c0.chunk.js"
   ]
 }
